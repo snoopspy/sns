@@ -12,28 +12,28 @@ Git Example
 
 apt로 git를 설치합니다.
 ```
-sudo apt install git
+$ sudo apt install git
 ```
 
 user name을 등록합니다.
 
 ```
-git config --global user.name <사용자명>
+$ git config --global user.name <사용자명>
 
-ex : git config --global user.name gilgil
+ex : $ git config --global user.name gilgil
 ```
 
 email을 등록합니다.
 ```
-git config --global user.email <이메일주소>
+$ git config --global user.email <이메일주소>
 
-ex : git config --global user.email gilgil@gilgil.net
+ex : $ git config --global user.email gilgil@gilgil.net
 ```
 
 git 환경 설정은 다음과 같은 명령어로 확인할 수 있습니다.
 
 ```
-git config --global --list
+$ git config --global --list
 ```
 
 
@@ -47,7 +47,7 @@ github.com 사이트에 들어 가서 자신의 계정을 생성합니다.
 
 git clone 명령어를 이용하여 repository를 가져 옵니다.
 ```
-git clone https://github.com/snoopspy/sum_test.git
+$ git clone https://github.com/snoopspy/sum_test.git
 ```
 
 
@@ -82,8 +82,8 @@ int sum(int n) {
 ```
 
 ```
-git add sum.*
-git commit -m "Add sum modules"
+$ git add sum.*
+$ git commit -m "Add sum modules"
 ```
 
 main.cpp 코드를 만들고 git add 및 commit을 합니다.
@@ -100,8 +100,8 @@ int main() {
 ```
 
 ```
-git add main.cpp
-git commit -m "Add main.cpp"
+$ git add main.cpp
+$ git commit -m "Add main.cpp"
 ```
 
 Makfile을 만들고 git add 및 commit을 합니다.
@@ -123,15 +123,15 @@ clean:
 ```
 
 ```
-git add Makefile
-git commit -m "Add Makefile"
+$ git add Makefile
+$ git commit -m "Add Makefile"
 ```
 
 make라는 명령어를 통하여 실행이 제대로 되는지 확인해 보고 git log로 제대로 남아 있는지 확인합니다.
 
 다음과 같은 명령어로 remote repository에 push한 이후 제대로 push가 되었는지 확인합니다.
 ```
-git push origin master
+$ git push origin master
 ```
 
 github.com 뿐만 아니라 git 서비스를 제공해 주는 다양한 사이트들이 있으며, 자체적인 git server를 구축할 수도 있습니다.
@@ -139,9 +139,9 @@ github.com 뿐만 아니라 git 서비스를 제공해 주는 다양한 사이�
 "git clone" 명령으로 git repository를 가져올 수도 있지만 "git init" 명령어로 git repository를 생성할 수도 있습니다.
 
 ```
-mkdir sum_test
-cd sum_test
-git init
+$ mkdir sum_test
+$ cd sum_test
+$ git init
 ```
 
 

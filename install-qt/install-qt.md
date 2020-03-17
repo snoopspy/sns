@@ -20,8 +20,8 @@ https://qt.io > Download. Try. Buy > Go open source > Download the Qt Online Ins
 https://download.qt.io > official_releases > qt 에서 OS에 맞는 파일을 다운받아 설치한다.  
 chmod 명령을 주어 실행 권한을 준 다음 command line에서 설치한다.
 ```
-chmod +x qt-opensource-linux-x64-5.12.7.run
-./qt-opensource-linux-x64-5.12.7.run
+$ chmod +x qt-opensource-linux-x64-5.12.7.run
+$ ./qt-opensource-linux-x64-5.12.7.run
 ```
 
 ## Select Components
@@ -35,16 +35,16 @@ chmod +x qt-opensource-linux-x64-5.12.7.run
 ## Sample(hello_world)
 console application 실행이 안될 때 terminator를 설치해 준다.
 ```
-sudo apt install terminator
+$ sudo apt install terminator
 ```
 gdb 설치를 해 주어야 디버깅이 가능하다.
 ```
-sudo apt install gdb
+$ sudo apt install gdb
 ```
 ## Sample(widget_test)
 Qt에 서GUI 앱을 개발할 때에는 OpenGL 모듈을 사용하고 있기 때문에 OpenGL 관련 모듈을 미리 설치해 줘야 한다.
 ```
-sudo apt install libglu1-mesa-dev
+$ sudo apt install libglu1-mesa-dev
 ```
 
 ## Youtube
