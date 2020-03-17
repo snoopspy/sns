@@ -1,0 +1,24 @@
+[prepare]
+
+~/Qt/MaintenanceTool
+
+chmod -x /home/gilgil/Downloads/dev/qt/qt-opensource-linux-x64-5.12.7.run
+sudo apt remove terminator
+sudo apt remove libglu1-mesa-dev
+sudo apt remove gdb
+sudo apt autoremove
+
+rm -rf /home/gilgil/.config/Qt
+rm -rf /home/gilgil/.config/qterminal.org
+rm -rf /home/gilgil/.config/QtProject
+rm -f /home/gilgil//.config/QtProject.conf
+rm -rf /home/gilgil/temp/qt
+
+su
+rm -rf /root/.config/Qt
+rm -rf /root/.config/qterminal.org
+rm -rf /root/.config/QtProject
+rm -f /root/.config/QtProject.conf
+
+Atom 켜놓기
+
