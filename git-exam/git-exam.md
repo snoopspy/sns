@@ -7,6 +7,7 @@ Git Example
 
 본 문서에서는 다음과 같은 간단한 예제를 통하여 git를 익혀 보도록 하겠습니다.
 
+
 ### git 설치 및 환경 설정
 
 apt로 git를 설치합니다.
@@ -35,6 +36,7 @@ git 환경 설정은 다음과 같은 명령어로 확인할 수 있습니다.
 git config --global --list
 ```
 
+
 ### github.com 계정 생성 및 repository 생성
 
 github.com 사이트에 들어 가서 자신의 계정을 생성합니다.
@@ -47,6 +49,7 @@ git clone 명령어를 이용하여 repository를 가져 옵니다.
 ```
 git clone https://github.com/snoopspy/sum_test.git
 ```
+
 
 ### 소스 코드 작성
 
@@ -141,6 +144,11 @@ cd sum_test
 git init
 ```
 
+
 ### references
 
 [git - 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)  
+
+
+### Youtube
+[https://youtu.be/gB-b9DGp8XU](https://youtu.be/gB-b9DGp8XU)
