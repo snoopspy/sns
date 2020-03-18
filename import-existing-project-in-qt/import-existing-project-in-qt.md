@@ -20,3 +20,7 @@ Import existing project in Qt
 
 * 이후 Qt Creator에서 편집, 실행, 디버깅 등이 가능하다.  
 ![](sc4.png)
+
+
+## Youtube
+[https://youtu.be/hLXUKIS8u1o](https://youtu.be/hLXUKIS8u1o)
