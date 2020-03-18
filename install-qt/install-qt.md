@@ -1,5 +1,5 @@
-Qt install
-==========
+Install Qt
+===
 
 ## Dependencies
 * Qt는 통합개발환경(IDE)인 QtCreator와 Qt 관련 플랫폼(라이브러리)를 제공한다.
