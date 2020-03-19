@@ -1,0 +1,26 @@
+byte-order Byte order
+
+~/proj/gl/gilgil/sns.wiki/byte-order
+
+[준비]
+cd ~/temp/qt/byte_order_test
+git clean -fxd
+git reset HEAD --hard
+rm -rf /home/gilgil/temp/qt/untitled
+rm -rf /home/gilgil/temp/qt/build*
+atom 띄우기
+
+[녹화]
+
+진수 설명, unit 설명
+
+Wireshark를 이용하여 gilgil.net:4660 에 접속했을 때 10000의 포트번호가 0x1234 로 처리됨을 보여 줌.
+
+byte_order_test 예제 설명하기.
+
+#include <netinet/in.h> 하여 코드 제대로 고치기.
+
+big endian에서 my_ntohs와 ntohs의 출력 결과 설명하기.
+
+release 모드에서 최적화 되는 것 보여 주기.
+
