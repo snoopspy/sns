@@ -67,9 +67,9 @@ void dump(void* p, size_t n) {
 ## Conclusion
 * Intel CPU의 경우는 대부분 LE 계열이고, ARM CPU의 경우에는 종류에 따라 BE, LE 계열로 구분되어 지기도 한다. 올바른 네트워크 프로그래밍을 하기 위해서는 LE 및 BE의 차이 및 NBO와 HBO간 변환를 시켜 주는 작동 원리를 이해하고 있어야 한다.
 
-* <b>#include <netinet/in.h></b> 하면 아래와 같은 함수들을 사용할 수 있다. 아래 함수들은 자신의 CPU가 LE이던지 BE이던지 상관없이 작동할 수 있도록 컴파일러가 자신의 byte order를 알고 처리해 준다.
+* <b>#include <netinet/in.h></b> 하면 아래와 같은 함수들을 사용할 수 있다. 아래 함수들은 자신의 CPU가 LE이던지 BE이던지 상관없이 작동할 수 있도록 컴파일러가 자신의 byte order를 알고 처리해 준다.  
 
-  | function | size | conversion |
+| function | size | conversion |
 |---|---|---|
 | uint16_t <B>ntohs</B>(uint16_t netshort); | 2 byte | NBO to HBO |
 | uint16_t <B>htons</B>(uint16_t hostshort); | 2 byte | HBO to NBO |
