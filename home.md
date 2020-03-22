@@ -8,6 +8,6 @@ System Network Security
 * [Import existing project in Qt](/import-existing-project-in-qt/import-existing-project-in-qt)
 * [Byte order](/byte-order/byte-order)
 
-## C/CPP
+## C/C++
 * [Loop variable optimize](/loop-variable-optimize/loop-variable-optimize)
 * [switch statement](/switch-statement/switch-statement)
