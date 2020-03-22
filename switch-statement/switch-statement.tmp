@@ -1,0 +1,11 @@
+switch-statement
+
+Qt에서 debug mode로 선언해 놓을 것
+break point 모드 꺼 놓을 것.
+Run Command line arguments 비워 놓을 것.
+
+ifElseTest 보여줄 것
+switchTest 보여줄 것
+sparseSwitchTest 보여줄 것
+release mode로 바꾸고 sparseSwitchTest 보여줄 것
+

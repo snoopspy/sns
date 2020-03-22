@@ -10,3 +10,4 @@ System Network Security
 
 ## C/CPP
 * [Loop variable optimize](/loop-variable-optimize/loop-variable-optimize)
+* [switch statement](/switch-statement/switch-statement)
