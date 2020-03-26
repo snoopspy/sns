@@ -2,7 +2,7 @@ OSI model and TCP/IP Layer
 ===
 
 
-네트워크 분야에서 제일 알아야 하는 것이 바로 OSI model과 TCP/IP layer이다.
+네트워크 분야에서 제일 먼저 알아야 하는 것이 바로 OSI model과 TCP/IP layer이다.
 
 ![](osi-and-tcp.jpg)
 
@@ -33,7 +33,7 @@ OSI model은 다음과 같은 방식으로 암기하는 것이 좋다.
 ETH - IP - TCP - HTTP
 ```
 
-Wireshark를 통하여 packet을 잡아 보고 실제로 ETH - IP - TCP - HTTP 의 조합으로 통신이 이루어 지는지 확인해 보도록 한다(display filter : "http.request").
+Wireshark를 통하여 Packet을 잡아 보고 실제로 ETH - IP - TCP - HTTP 의 조합으로 통신이 이루어 지는지 확인해 보도록 한다(display filter : "http.request").
 
 ![](wireshark-sc.png)
 
