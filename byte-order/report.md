@@ -1,7 +1,7 @@
 ### 과제
 32 bit 숫자가 파일에 4바이트의 크기로 저장되어 있다(network byte order). 2개의 파일을 입력받아 숫자를 읽어 들여 그 합을 출력하는 프로그램을 작성하라.
 
-### 형식
+### 실행
 ```
 syntax : add_nbo <file1> <file2>
 sample : add_nbo a.bin c.bin
