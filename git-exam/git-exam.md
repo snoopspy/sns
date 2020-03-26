@@ -30,6 +30,11 @@ $ git config --global user.email <이메일주소>
 ex : $ git config --global user.email gilgil@gilgil.net
 ```
 
+git push를 할 때마다 id, password을 물어 보는 경우가 있는데 cache를 두어 여러번 입력하지 않아도 될 수 있도록 한다.
+```
+$ git config --global credential.helper "cache --timeout=360000"
+```
+
 git 환경 설정은 다음과 같은 명령어로 확인할 수 있습니다.
 
 ```
