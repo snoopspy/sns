@@ -10,6 +10,7 @@ System Network Security
 
 ## Basic
 * [OSI model and TCP/IP Layer](/osi-and-tcp/osi-and-tcp)
+* [Basic packet analysis](/basic-packet-analysis/basic-packet-analysis)
 
 ## C/C++
 * [Loop variable optimize](/loop-variable-optimize/loop-variable-optimize)
