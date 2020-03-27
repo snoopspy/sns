@@ -44,5 +44,7 @@ Wireshark를 통하여 Packet을 잡아 보고 실제로 ETH - IP - TCP - HTTP �
 [osi-and-tcp.odp](osi-and-tcp.odp)
 
 ## References
-
 [NETWORK ASSOCIATES GUIDE TO COMMUNICATIONS PROTOCOLS](protocols.pdf)
+
+## Youtube
+[https://youtu.be/-tYwK2tUkOU](https://youtu.be/-tYwK2tUkOU)
