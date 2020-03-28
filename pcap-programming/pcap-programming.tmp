@@ -1,0 +1,6 @@
+su
+rm -rf /home/gilgil/temp/qt/pcap-test
+rm -rf /home/gilgil/temp/qt/build-pcap-test-Desktop_Qt_5_12_7_GCC_64bit-Debug
+rm -rf /root/temp/qt/pcap-test
+rm -rf /root/temp/qt/build-pcap-test-Desktop_Qt_5_12_7_GCC_64bit-Debug
+ifconfig eth0 up
