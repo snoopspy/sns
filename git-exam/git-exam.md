@@ -35,6 +35,11 @@ git push를 할 때마다 id, password을 물어 보는 경우가 있는데 cach
 $ git config --global credential.helper "cache --timeout=360000"
 ```
 
+git server와의 통신에서  SSL verify를 끄고 싶은 경우 다음과 같아 합니다.
+```
+$ git config --global http.sslverify "false"
+```
+
 git 환경 설정은 다음과 같은 명령어로 확인할 수 있습니다.
 
 ```
