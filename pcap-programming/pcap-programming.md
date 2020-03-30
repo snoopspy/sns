@@ -12,7 +12,7 @@ pcap_t라는 핸들을 이용하여 packet을 수집(capture) 및 전송(send)�
 |packet 수신|pcap_next_ex|
 |packet 송신|pcap_sendpacket|
 
-그 외에도 다양한 API가 있으니 구글링을 통하여 pcap API를 숙지하시기 바랍니다.
+그 외에도 다양한 API가 있으니 구글링을 통하여 pcap API를 숙지하도록 한다.
 
 ## Linux
 * libpcap을 설치해야 한다. pcap.h 파일을 include하고 링크 과정에서 '-lpcap' 옵션을 추가한다. 일후 pcap function은 관리자 권한을 요구하니 root로 실행하도록 한다.
