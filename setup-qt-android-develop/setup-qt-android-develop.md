@@ -14,7 +14,7 @@ Qt에서 Android 앱을 개발하는 데 필요한 setup 과정을 설명한다.
 ## Qt 설치
 * 최신 LTS 버전을 설치하도록 한다.
 
-* 설치할 때 "Android ARMv7" component를 추가 설치한다.
+* 설치할 때 "Android ARMv7" component를 추가 설치한다.  
 ![](select-components.png)
 
 ## JDK 설치
@@ -33,8 +33,9 @@ $ sudo apt install openjdk-8-jdk
 
   https://stackoverflow.com/questions/37505709/how-do-i-download-the-android-sdk-without-downloading-android-studio
 
-* 자신의 OS에 맞는 버전의 Android SDK를 다운받아 로컬에 풀어 놓는다(아래 링크는 SDK 최신 버전 26.1.1).
-|OS|file|
+* 자신의 OS에 맞는 버전의 Android SDK를 다운받아 로컬에 풀어 놓는다(아래 링크는 SDK 최신 버전 26.1.1).  
+
+|OS|File|
 |---|---|
 |Windows|https://dl.google.com/android/repository/sdk-tools-windows-4333796.zip|
 |Mac|https://dl.google.com/android/repository/sdk-tools-darwin-4333796.zip|
@@ -42,7 +43,8 @@ $ sudo apt install openjdk-8-jdk
 
 ## NDK 설치
 * https://developer.android.com/ndk/downloads 사이트에서 NDK 파일(zip file)을 받아 로컬에 풀어 놓으면 된다(현재 NDK 최신 버전 r21).
-|OS|file|
+
+|OS|File|
 |---|---|
 |Windows 64-bit|android-ndk-r21-windows-x86_64.zip|
 |Mac|android-ndk-r21-darwin-x86_64.zip
