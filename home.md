@@ -18,4 +18,4 @@ System Network Security
 * [switch statement](/switch-statement/switch-statement)
 
 ## Qt
-* [Setup Qt Android Development](setup-qt-android-develop)
+* [Setup Qt Android Development](/setup-qt-android-develop/setup-qt-android-develop)
