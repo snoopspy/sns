@@ -37,8 +37,8 @@ ARP 프로토콜에 대해서 이해를 한다. 본 실습은 공공 와이파�
 * 이 경우(attack이 성공한 경우) 상대방 컴퓨터에서 ARP cache table이 변경되고, 외부 ping을 때렸을 때 그 ping packet이 자신(attacker)에게 오게 되며, 상대방 컴퓨터에서는 정상적인 IP 통신을 할 수 없게 된다(인터넷이 막히는 것처럼 된다).
 
 ## Youtube
-https://youtu.be/kAUGd9xtUHE
+ARP protocol(1) : https://youtu.be/kAUGd9xtUHE
 
-https://youtu.be/4Ia6Q-MXVzY
+ARP protocol(2) : https://youtu.be/4Ia6Q-MXVzY
 
-https://youtu.be/__p4yCeYI0k
+ARP protocol(3) : https://youtu.be/__p4yCeYI0k
