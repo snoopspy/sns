@@ -5,7 +5,7 @@ ARP 프로토콜에 대해서 이해를 한다. 본 실습은 공공 와이파�
 
 ## 네트워크 정보 수집
 
-* https://gitlab.com/gilgil/send-arp-test.git git repository를 clone받는다.
+* https://gitlab.com/gilgil/send-arp-test.git repository를 clone받는다.
 
 * \<git\>/ppt 폴더 안에 있는 send-arp-test.odp 파일을 열어서 자신(me), 상대방(you), 게이트웨이(gateway)에 대한 mac과 ip 정보를 알아내어 적는다.
 
