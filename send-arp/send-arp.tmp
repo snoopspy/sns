@@ -1,0 +1,15 @@
+ARP protocol
+send-arp
+
+사전
+
+[terminal]
+cd /root/proj/gl/gilgil
+rm -rf send-arp-test
+폰트 키우기
+화면 클리어
+
+브라우저 blank로 하나만 띄워 놓기
+vnc viewer 띄워 놓기
+atom 띄워 놓기
+
