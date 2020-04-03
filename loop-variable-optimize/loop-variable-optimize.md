@@ -6,6 +6,5 @@ Loop variable optimize
 
 [loop-variable-optimize.tar.gz](loop-variable-optimize.tar.gz)
 
-
 ## Youtube
 [https://youtu.be/CBrCbZnBrn4](https://youtu.be/CBrCbZnBrn4)

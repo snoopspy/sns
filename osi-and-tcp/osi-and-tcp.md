@@ -1,7 +1,6 @@
 OSI model and TCP/IP Layer
 ===
 
-
 네트워크 분야에서 제일 먼저 알아야 하는 것이 바로 OSI model과 TCP/IP layer이다.
 
 ![](osi-and-tcp.jpg)
