@@ -160,4 +160,4 @@ $ git init
 
 
 ## Youtube
-[https://youtu.be/gB-b9DGp8XU](https://youtu.be/gB-b9DGp8XU)
+https://youtu.be/gB-

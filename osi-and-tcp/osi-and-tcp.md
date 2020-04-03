@@ -47,4 +47,4 @@ Wireshark를 통하여 Packet을 잡아 보고 실제로 ETH - IP - TCP - HTTP �
 [NETWORK ASSOCIATES GUIDE TO COMMUNICATIONS PROTOCOLS](protocols.pdf)
 
 ## Youtube
-[https://youtu.be/GNuYdnHyAw0](https://youtu.be/GNuYdnHyAw0)
+https://youtu.be/GNuYdnHyAw0

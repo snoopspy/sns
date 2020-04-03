@@ -81,4 +81,4 @@ void dump(void* p, size_t n) {
 [https://en.wikipedia.org/wiki/Endianness](https://en.wikipedia.org/wiki/Endianness)
 
 ## Youtube
-[https://youtu.be/VX1zPo1r0SY](https://youtu.be/VX1zPo1r0SY)
+https://youtu.be/VX1zPo1r0SY

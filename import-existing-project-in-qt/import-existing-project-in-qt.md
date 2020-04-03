@@ -24,4 +24,4 @@ Import existing project in Qt
 
 
 ## Youtube
-[https://youtu.be/PKMXK5i7yWQ](https://youtu.be/PKMXK5i7yWQ)
+https://youtu.be/PKMXK5i7yWQ
