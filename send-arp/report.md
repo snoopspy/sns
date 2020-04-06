@@ -1,5 +1,5 @@
 ### 과제
-sender(victim)의 arp table을 변조하라.
+Sender(Victim)의 ARP table을 변조하라.
 
 ### 실행
 ```
