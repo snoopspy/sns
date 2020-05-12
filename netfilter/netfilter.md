@@ -191,4 +191,4 @@ void dump(unsigned char* buf, int size) {
 }
 ```
 
-이후 nfq_set_verdict 함수의 3번째 인자를 NF_ACCEPT나 NF_DROP 값을 이용해서 호출하여 패킷을 accet하거나 drop시킬 수 있습니다.
+이후 nfq_set_verdict 함수의 3번째 인자를 NF_ACCEPT나 NF_DROP 값으로 호출함으로써 패킷을 accept하거나 drop시킬 수 있습니다.
