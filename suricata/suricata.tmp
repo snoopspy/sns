@@ -1,0 +1,5 @@
+rm ~/temp/suricata/test.rules
+
+firefox cache clear
+
+PPT 맨 앞으로
