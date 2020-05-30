@@ -89,12 +89,12 @@ chain안에 있는 모든 rule를 삭제한다.
 sudo iptables -F
 ```
 
-cahin을 추가한다.
+chain을 추가한다.
 ```
 sudo iptables -A chain
 ```
 
-cahin을 삭제한다.
+chain을 삭제한다.
 ```
 sudo iptables -D chain
 ```
