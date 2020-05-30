@@ -104,7 +104,7 @@ sudo iptables -D chain
 sudo iptables -A OUTPUT -p icmp -j DROP
 ```
 
-간단한 예제를 통해서 icmp를 차단해 보도록 하겠습니다. OUTPUT을 차단하지 않고 INPUT에서 차단을 설정합니다. 이 경우 ping 통신은 되지 않지만, Wireshark에서는 송수신되는 icmp packet이 모두 잡히게 됩니다.
+OUTPUT을 차단하지 않고 INPUT에서 차단을 설정합니다. 이 경우 ping 통신은 되지 않지만, Wireshark에서는 송수신되는 icmp packet이 모두 잡히게 됩니다.
 ```
 sudo iptables -F
 sudo iptables -A INPUT -p icmp -j DROP
