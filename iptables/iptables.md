@@ -99,8 +99,7 @@ cahin을 삭제한다.
 iptables -D chain
 ```
 
-간단한 예제를 통해서 icmp를 차단해 보도록 하겠습니다.
-
+간단한 예제를 통해서 icmp를 차단해 보도록 하겠습니다. 설정 이후에 ping을 때려 보면 ping 송신이 되지 않는 것을 확인할 수 있습니다.
 ```
 iptables -A OUTPUT -p icmp -j DROP
 ```
@@ -114,8 +113,5 @@ iptables -A OUTPUT -p tcp -j DROP
 iptables -A INPUT -p tcp -j DROP
 
 ```
-
-
-이후에 ping을 때려 보면 ping 송신이 되지 않는 것을 확인할 수 있습니다.
 
 iptables의 사용법은 [구글링](https://www.google.com/search?q=iptables+%EC%98%88%EC%A0%9C)을 통해 익혀 두시기 바랍니다.
