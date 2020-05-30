@@ -81,42 +81,42 @@ Options:
 
 chain안에 있는 모든 rule를 보여 준다.
 ```
-iptables -L
+sudo iptables -L
 ```
 
 chain안에 있는 모든 rule를 삭제한다.
 ```
-iptables -F
+sudo iptables -F
 ```
 
 cahin을 추가한다.
 ```
-iptables -A chain
+sudo iptables -A chain
 ```
 
 cahin을 삭제한다.
 ```
-iptables -D chain
+sudo iptables -D chain
 ```
 
 간단한 예제를 통해서 icmp를 차단해 보도록 하겠습니다. 설정 이후에 ping을 때려 보면 ping 통신이 되지 않는 것을 확인할 수 있습니다. Wireshark에서 icmp packet이 전혀 잡히지 않습니다.
 ```
-iptables -A OUTPUT -p icmp -j DROP
+sudo iptables -A OUTPUT -p icmp -j DROP
 ```
 
 간단한 예제를 통해서 icmp를 차단해 보도록 하겠습니다. OUTPUT을 차단하지 않고 INPUT에서 차단을 설정합니다. 이 경우 ping 통신은 되지 않지만, Wireshark에서는 송수신되는 icmp packet이 모두 잡히게 됩니다.
 ```
-iptables -F
-iptables -A INPUT -p icmp -j DROP
+sudo iptables -F
+sudo iptables -A INPUT -p icmp -j DROP
 ```
 
 TCP port 80을 제외한 나머지 TCP 트래픽은 차단하는 룰을 테스트해 봅니다.
 ```
-iptables -F
-iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
-iptables -A INPUT -p tcp --sport 80 -j ACCEPT
-iptables -A OUTPUT -p tcp -j DROP
-iptables -A INPUT -p tcp -j DROP
+sudo iptables -F
+sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -p tcp --sport 80 -j ACCEPT
+sudo iptables -A OUTPUT -p tcp -j DROP
+sudo iptables -A INPUT -p tcp -j DROP
 
 ```
 
