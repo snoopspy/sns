@@ -7,11 +7,6 @@ Suricata
 * 소스 코드 빌드를 직접 하는 Suricata 설치 가이드  
 [suricata-install-guide(2020.05.24).pptx](suricata-install-guide(2020.05.24).pptx)
 
-* boyer-moore.pptx  
-[boyer-moore.pptx](boyer-moore.pptx)
-
-* aho-corasick.drawio  
-[aho-corasick.drawio](aho-corasick.drawio)
 
 ## Youtube
 https://youtu.be/Rf3CKSDzkXk (Suricata)  
