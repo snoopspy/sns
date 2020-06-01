@@ -121,3 +121,6 @@ sudo iptables -A INPUT -p tcp -j DROP
 ```
 
 iptables의 사용법은 [구글링](https://www.google.com/search?q=iptables+%EC%98%88%EC%A0%9C)을 통해 익혀 두시기 바랍니다.
+
+## Youtube
+https://youtu.be/8CEXieYDbyM
