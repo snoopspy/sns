@@ -25,6 +25,8 @@ System Network Security
 
 ## Suricata
 * [suricata](suricata/suricata)
+* [Boyer-Moore](boyer-moore/boyer-moore)
+* [Aho-Corasick](aho-corasick/aho-corasick)
 
 ## C/C++
 * [Loop variable optimize](/loop-variable-optimize/loop-variable-optimize)
