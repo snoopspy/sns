@@ -24,7 +24,7 @@ System Network Security
 * [netfilter](/netfilter/netfilter)
 
 ## Suricata
-* [suricata](suricata/suricata)
+* [Suricata](suricata/suricata)
 * [Boyer-Moore](boyer-moore/boyer-moore)
 * [Aho-Corasick](aho-corasick/aho-corasick)
 
