@@ -25,5 +25,8 @@ char *strnstr(const char *big, const char *little, size_t len);
 https://gitlab.com/gilgil/boyer-moore-test
 
 
+## Source Code
+https://suricata-ids.org/ > Download > suricata-x.x.x.tar.gz 파일에서 src 폴더에 있는 "util-spm-bm.h" 및 "util-spm-bm.c" 파일을 참고한다.
+
 ## Youtube
 https://youtu.be/4s1noUxykk0
