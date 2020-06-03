@@ -1,19 +1,21 @@
 ### 과제
-echoclient, echoserver 프로그램을 제작하라.
+echo-client, echo-server 프로그램을 제작하라.
 
 ### 실행
 ```
-echoclient:
-syntax : echoclient <ip> <port>
-sample : echoclient 192.168.10.2 1234
+echo-client:
+syntax : echo-client <ip> <port>
+sample : echo-client 192.168.10.2 1234
 
-echoserver:
-syntax : echoserver <port> [-b]
-sample : echoserver 1234 -b
+echo-server:
+syntax : echo-server <port> [-b]
+sample : echo-server 1234 -b
 ```
 
 ### 상세
-* echoclient(이하 client)는 echoserver(server)에 TCP 접속을 한다.
+* socket 관련 함수를 사용한다(socket, connect, send, recv, bind, listen, accept 등).
+
+* echo-client(이하 client)는 echo-server(server)에 TCP 접속을 한다.
 
 * client는 사용자로부터 메세지를 입력받아 server에 메세지를 전달한다.
 
