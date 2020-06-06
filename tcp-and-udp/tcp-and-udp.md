@@ -91,7 +91,7 @@ sudo iptables -D INPUT -p tcp --dport 1234 -j DROP
 
 * TCP의 SEQ number는 송신하는 Data의 크기만큼 증가하고, 특정 flag(SYN, FIN)에 대해 1(하나) 증가한다(RST flag에 대해서는 무시함).
 
-* TCP의 SEQ, ACK number는 TCP sequence prediction attack을 방지하기 위하여 처음 값을 random으로 결정한다.
+* TCP의 SEQ, ACK number는 제 3자로부터의 packet injection attack을 방지하기 위하여 처음 값을 random으로 결정한다. 이러한 random SEQ number를 guessing하는 TCP sequence prediction attack 기법도 있다.
 
 * UDP는 TCP에서 제공하는 이러한 retransmission 로직이 없다. 필요한 경우 Application에서 이러한 기능을 제공해야 한다.
 
