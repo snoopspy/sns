@@ -94,3 +94,8 @@ sudo iptables -D INPUT -p tcp --dport 1234 -j DROP
 * TCP의 SEQ, ACK number는 TCP sequence prediction attack을 방지하기 위하여 처음 값을 random으로 결정한다.
 
 * UDP는 TCP에서 제공하는 이러한 retransmission 로직이 없다. 필요한 경우 Application에서 이러한 기능을 제공해야 한다.
+
+
+## Youtube
+* TCP와 UDP에 대한 설명(1) https://youtu.be/kG4uABh5EH4
+* TCP와 UDP에 대한 설명(2) https://youtu.be/LBKdkZwmUnc
