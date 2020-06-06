@@ -83,7 +83,7 @@ sudo iptables -D INPUT -p tcp --dport 1234 -j DROP
 ## 결론
 * TCP는 Data를 송수신하기 이전에 연결 과정을 거치며(connection oriented), UDP는 이러한 연결 과정이 없다(connectionless).
 
-* TCP는 연결 과정에서 상대방의 SEQ number negotiation, RTT(Round-Trip Time) 계산 등 다양한 정보를 수집한다. 이후 SEQ number 정보는 연결이 끊길 때까지 증가를 하게 되며, RTT값을 Adaptive하게 변경된다.
+* TCP는 연결 과정에서 상대방의 SEQ number negotiation, RTT(Round-Trip Time) 계산 등 다양한 정보를 수집한다.
 
 * TCP는 제대로 된 송수신의 보장을 위해 SEQ number 및 ACK number 필드를 사용한다.
 
