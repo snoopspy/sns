@@ -1,0 +1,4 @@
+simple-client-server 2개 띄우고 화면을 clear한다.
+git clean -fxd
+
+TCP Header 띄워 놓는다.
