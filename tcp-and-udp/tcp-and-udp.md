@@ -17,7 +17,7 @@ TCP and UDP
 ./uc 127.0.0.1 1234
 ```
 
-* packet을 확인한다.
+* 통신 과정에서 packet을 확인한다.
 
 
 ### TCP 통신 테스트
@@ -31,19 +31,19 @@ TCP and UDP
 ./tc 127.0.0.1 1234
 ```
 
-* 연결 과정, 데이터 송수신 과정, 끊기 과정에서 packet의 갯수를 확인한다.
+* 통신 과정에서 packet의 갯수를 확인한다.
 
 * 송수신되는 packet의 SEQ number 및 ACK number 값을 확인한다. [tcp-seq-ack-test.drawio](tcp-seq-ack-test.drawio).
 
 ## UDP 통신 차단 테스트
-* udp 통신을 차단한다.
+* udp 통신을 차단한다(서버측).
 ```
 sudo iptables -A INPUT -p udp --dport 1234 -j DROP
 ```
 
 * "aaaaa"를 보낸다.
 
-* udp 통신을 허용한다.
+* udp 통신을 허용한다(서버측).
 ```
 sudo iptables -D INPUT -p udp --dport 1234 -j DROP
 ```
@@ -65,19 +65,19 @@ sudo iptables -D INPUT -p udp --dport 1234 -j DROP
 ## TCP 통신 차단 테스트
 * tc와 ts의 connection을 맺어 놓는다.
 
-* tcp 통신을 차단한다.
+* tcp 통신을 차단한다(서버측).
 ```
 sudo iptables -A INPUT -p tcp --dport 1234 -j DROP
 ```
 
 * "aaaaa", "bbbbb", ""ccccc""를 보낸다.
 
-* tcp 통신을 허용한다.
+* tcp 통신을 허용한다(서버측).
 ```
 sudo iptables -D INPUT -p tcp --dport 1234 -j DROP
 ```
 
-* data retransmission 패턴 및 송수신되는 packet의 SEQ number값을 확인한다.
+* UDP와는 다르게 15바이트(aaaaabbbbbccccc)가 Application 레벨에서 모두 전송이 됨을 확인하고, data retransmission 패턴 및 송수신되는 packet의 SEQ number값을 확인한다.
 
 
 ## 결론
