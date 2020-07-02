@@ -8,7 +8,7 @@ Host OS에 설치해도 되나 대부분의 교육생이 Windows를 사용하는
 https://github.com/snoopspy/cpu_test tool을 가지고 CPU의 할당에 제대로 되어 있나 확인을 해 봅니다.
 
 * Wireshark 설치 ([wireshark.org](https://www.wireshark.org/))  
-"sudo apt install wireshark" 명령어로 설치할 수 있습니다. Windows에서는 wireshark.org 사이트에 가서 설치하시면 됩니다. 네트워크 패킷을 잡는 일이 많으니까 Host OS 및 Guest OS 두군데 다 설치해 놓으시기 바랍니다.
+"sudo apt install wireshark" 명령어로 설치할 수 있습니다. Windows에서는 wireshark.org 사이트에 가서 설치하시면 됩니다(WinPcaP과 npcap이 중복되어 설치되지 않도록 할 것). 네트워크 패킷을 잡는 일이 많으니까 Host OS 및 Guest OS 두군데 다 설치해 놓으시기 바랍니다.
 
 * SnoopSpy 설치 ([snoopspy.com](http://snoopspy.com/))  
 아직 Windows용 밖에 없습니다. 수업 시간에 종종 사용하는 일이 있으니 미리 설치해 두세요.
