@@ -56,4 +56,4 @@ Linux는 "sudo apt install git", Windows는 [git-scm.com](https://git-scm.com/) 
 
 
 ## Youtube
-https://youtu.be/e9fwFDmWTbY
+https://youtu.be/pb9cPU_vt5Y
