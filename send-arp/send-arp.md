@@ -18,7 +18,7 @@ ARP 프로토콜에 대해서 이해를 한다. 본 실습은 공공 와이파�
 
 ## PING packet 실습
 
-* Wireshark를 실행하여 'ping 8.8.8.8' 명령어에 의한 ICMP packet(icamp.pacp으로 저장)을 잡아 ppt 파일의 ICMP 란에 ETH 헤더와 IP 헤더에 mac과 ip 정보를 입력한다.
+* Wireshark를 실행하여 'ping 8.8.8.8' 명령어에 의한 ICMP packet(icmp.pcap으로 저장)을 잡아 ppt 파일의 ICMP 란에 ETH 헤더와 IP 헤더에 mac과 ip 정보를 입력한다.
 
 ## ARP packet 실습
 
