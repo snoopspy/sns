@@ -40,7 +40,7 @@ Wireshark를 통하여 Packet을 잡아 보고 실제로 ETH - IP - TCP - HTTP �
 
 워낙 많은 Protocol들이 존재하기 때문에 모든 것을 다 외울 필요는 없다. 필요한 것들 몇개 정도만 숙지를 하고 그 다음부터 새로운 Protocol을 익힐 때 어디에서 가지치기를 하는지 차근차근 알아 가면 된다.
 
-[osi-and-tcp.odp](osi-and-tcp.odp)
+[osi-and-tcp-blank.odp](osi-and-tcp-blank.odp)
 
 ## References
 [NETWORK ASSOCIATES GUIDE TO COMMUNICATIONS PROTOCOLS](protocols.pdf)
