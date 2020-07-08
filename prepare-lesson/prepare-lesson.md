@@ -40,7 +40,7 @@ C/C++ 개발 IDE로 QtCreator라는 것이 있는데, Linux에서 C/C++을 많�
 
   전부 설치할 필요는 없고 Qt 5.X.X 최선 버전의 Desktop gcc 64-bit와 Qt Creator만 설치해도 됩니다. online installer로 설치를 할 수도 있고 offline 설치 파일을 다운받아서 설치를 할 수도 있습니다. [qt archive](http://download.qt.io/archive/qt/)  
 
-  /usr/lib/x86_64-linux-gnu/qtchooser/default.conf 파일을 생성하여 다음과 같은 항목을 추가하여 command line에서도 qmake가 실행이 될 수 있도록 합니다(5.7이라고 되어 있는 숫자는 자신의 머신에 설치된 qt의 버전에 맞게 수정 요망).
+  /usr/lib/x86_64-linux-gnu/qtchooser/default.conf 파일을 생성하여 다음과 같은 항목을 추가하여 command line에서도 qmake가 실행이 될 수 있도록 합니다(5.14.2 라고 되어 있는 숫자는 자신의 머신에 설치된 qt의 버전에 맞게 수정 요망).
   ```
   /opt/Qt/5.14.2/gcc_64/bin
   /opt/Qt/5.14.2/gcc_64/lib
