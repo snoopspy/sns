@@ -53,7 +53,7 @@ void dump(void* p, size_t n) {
 	printf("\n");
 }
 ```
-[byte-order-test.tar.gz](byte-order-test.tar.gz)
+[byte-order-test.zip](byte-order-test.zip)
 
 ## Byte order
 * NBO(network byte order) : 네트워크 레벨에서 숫자를 표현하는 순서
