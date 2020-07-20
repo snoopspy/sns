@@ -75,7 +75,7 @@ void dump(void* p, size_t n) {
 | uint16_t <B>ntohs</B>(uint16_t netshort); | 2 byte | NBO to HBO |
 | uint16_t <B>htons</B>(uint16_t hostshort); | 2 byte | HBO to NBO |
 | uint32_t <B>ntohl</B>(uint32_t netlong); | 4 byte | NBO to HBO |
-| uint32_t <B>htonl</B>(uint32_t hostlong); | 4 byte | NBO to HBO |
+| uint32_t <B>htonl</B>(uint32_t hostlong); | 4 byte | HBO to NBO |
 
 ## References
 [https://en.wikipedia.org/wiki/Endianness](https://en.wikipedia.org/wiki/Endianness)
