@@ -1,10 +1,10 @@
-iptables의 구성도는 다음과 같습니다.  
+iptables의 구성도는 다음과 같다.  
 
 ![linux-Iptables-firewall-schema.png](linux-Iptables-firewall-schema.png)
 
-외우기 어려우면 그냥 쉽게 INPUT, OUTPUT, FORWARD 정도만 익혀 두면 됩니다.
+외우기 어려우면 그냥 쉽게 INPUT, OUTPUT, FORWARD 정도만 익혀 두면 된다.
 
-iptables의 help는 다음과 같습니다만, 다 외울 필요는 없습니다.
+iptables의 help는 다음과 같은데 다 외울 필요는 없다.
 
 ```
 iptables v1.6.0
@@ -77,7 +77,7 @@ Options:
 
 ```
 
-간단한 명령어를 통해서 익혀 보도록 하겠습니다.
+간단한 명령어를 통해서 익혀 보도록 한다.
 
 chain안에 있는 모든 rule를 보여 준다.
 ```
