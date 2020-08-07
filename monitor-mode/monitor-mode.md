@@ -25,7 +25,6 @@ ifconfig <interface> down
 iwconfig <interface> mode monitor
 ifconfig <interface> up
 ```
-
 ![managed-mode-sc.png](managed-mode-sc.png)  
 ![monitor-mode-sc.png](monitor-mode-sc.png)  
 
@@ -45,16 +44,19 @@ ifcofig <new interface> up
 ## Network Manager의 처리
 * Linux에서는 Network Manager라는 프로세스가 있고 이 프로세스는 설치되어 있는 모든 network device를 manage하게 된다. 이 경우 Network Manager가 monitor mode로 전환된 interface를 access하여 오동작을 일으켜 패킷을 잡는 도중에 오류가 날 수 있다. 이를 위해서 monitor mode로 사용되어 지는 interface를 Network Manager로 하여금 unmanage하도록 해야 한다. 2가지 방법이 있다.
 
-  1. "airmon-ng check kill"이라는 명령어를 통해 monitor mode를 방해할 수 있는 모든 프로세스를 죽인다. 단 이경우 네트워크를 사용할 수 없다는 불편함이 존재한다.
-  2. "/etc/NetworkManager/NetworkManager.conf" 파일 마지막에 다음과 같은 항목을 추가하여 Network-Manager로 하여금 특정 interface(이름이나 mac으로)에 대해서 manage를 하지 말도록 설정한다. 설정이 바뀐 이후에는 네트워크 서비스를 재시작( "service network-manager restart" )하거나 컴퓨터를 재부팅해야 한다.
-```
-[keyfile]
-unmanaged-devices=interface-name:mon*;interface-name:wlan1;mac:00:11:22:33:44:55
-```
+  1. "/etc/NetworkManager/NetworkManager.conf" 파일 마지막에 다음과 같은 항목을 추가하여 Network-Manager로 하여금 특정 interface(이름이나 mac으로)에 대해서 manage를 하지 말도록 설정한다. 설정이 바뀐 이후에는 네트워크 서비스를 재시작( "service network-manager restart" )하거나 컴퓨터를 재부팅해야 한다.
+  ```
+  [keyfile]
+  unmanaged-devices=interface-name:mon*;interface-name:wlan1;mac:00:11:22:33:44:55
+  ```
+
+  2. 해당 어댑터의 monitor mode 작동을 방해하는 프로세스가 떠 있을 경우 어댑터의 작동이 제대로 된 작동을 하지 못할 수 있다. 이 경우 다음과 같은 명령어를 통하여 해당 프로세스들을 죽이도록 한다(이 경우 NetworkManager와 같은 프로세스의 중지로 인해 정상적인 인터넷 사용이 되지 않을 수 있음).
+  ```
+  airmon-ng check kill
+  ```
 
 ## 최종 확인
 * 다음과 같은 명령을 통해서 802.11 packet이 제대로 잡히는지 확인한다. AP의 정보(화면 상단) 및 Station과 AP와의 통신 패킷(화면 하단)이 제대로 보이는지 확인한다.
-
 ```
 airodump-ng <interface>
 ```
@@ -62,7 +64,6 @@ airodump-ng <interface>
 ![airodump-ng-sc.png](airodump-ng-sc.png)  
 
 * 특정 AP의 channel을 알아낸 다음 해당 AP와 통신하는 Station간의 packet이 잡히는지 확인한다.
-
 ```
 airodump-ng <interface> -c <channel>
 ```
