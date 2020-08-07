@@ -29,7 +29,7 @@ ifconfig <interface> up
 ![managed-mode-sc.png](managed-mode-sc.png)  
 ![monitor-mode-sc.png](monitor-mode-sc.png)  
 
-* airmon-ng 명령어를 이용하여 monitor mode interface를 생성할 수도 있지만 권장하지 않는다.
+* airmon-ng 명령어를 이용하여 monitor mode interface를 생성할 수도 있다.
 ```
 airmon-ng start <interface>
 ```
