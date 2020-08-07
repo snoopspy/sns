@@ -1,3 +1,6 @@
+## wikipedia
+[https://en.wikipedia.org/wiki/Monitor_mode](https://en.wikipedia.org/wiki/Monitor_mode)
+
 ## monitor mode를 지원하는 어댑터 구매  
 * 일부 노트북은 자체 내장 WiFi 칩셋이 monitor mode를 지원하는 경우도 있다(LG그램, Mac)
 * [monitor mode chipset](https://www.google.com/search?q=monitor+mode+chipset), [best kali adapter](https://www.google.com/search?q=best+kali+adapter) 등으로 검색을 해서 USB Adapter를 구매한다.
