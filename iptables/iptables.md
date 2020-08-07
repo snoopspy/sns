@@ -1,10 +1,10 @@
-iptables의 구성도는 다음과 같습니다.  
+iptables의 구성도는 다음과 같다.  
 
 ![linux-Iptables-firewall-schema.png](linux-Iptables-firewall-schema.png)
 
-외우기 어려우면 그냥 쉽게 INPUT, OUTPUT, FORWARD 정도만 익혀 두면 됩니다.
+외우기 어려우면 그냥 쉽게 INPUT, OUTPUT, FORWARD 정도만 익혀 두면 된다.
 
-iptables의 help는 다음과 같습니다만, 다 외울 필요는 없습니다.
+iptables의 help는 다음과 같은데 다 외울 필요는 없다.
 
 ```
 iptables v1.6.0
@@ -77,7 +77,7 @@ Options:
 
 ```
 
-간단한 명령어를 통해서 익혀 보도록 하겠습니다.
+간단한 명령어를 통해서 익혀 보도록 한다.
 
 chain안에 있는 모든 rule를 보여 준다.
 ```
@@ -99,18 +99,18 @@ chain을 삭제한다.
 sudo iptables -D chain
 ```
 
-간단한 예제를 통해서 icmp를 차단해 보도록 하겠습니다. 설정 이후에 ping을 때려 보면 ping 통신이 되지 않는 것을 확인할 수 있습니다. Wireshark에서 icmp packet이 전혀 잡히지 않습니다.
+간단한 예제를 통해서 icmp를 차단해 보도록 한다. 설정 이후에 ping을 때려 보면 ping 통신이 되지 않는 것을 확인할 수 있다. Wireshark에서 icmp packet이 전혀 잡히지 않는다.
 ```
 sudo iptables -A OUTPUT -p icmp -j DROP
 ```
 
-OUTPUT을 차단하지 않고 INPUT에서 차단을 설정합니다. 이 경우 ping 통신은 되지 않지만, Wireshark에서는 송수신되는 icmp packet이 모두 잡히게 됩니다.
+OUTPUT을 차단하지 않고 INPUT에서 차단을 설정한다. 이 경우 ping 통신은 되지 않지만, Wireshark에서는 송수신되는 icmp packet이 모두 잡히게 된다.
 ```
 sudo iptables -F
 sudo iptables -A INPUT -p icmp -j DROP
 ```
 
-TCP port 80을 제외한 나머지 TCP 트래픽은 차단하는 룰을 테스트해 봅니다.
+TCP port 80을 제외한 나머지 TCP 트래픽을 차단하는 룰을 테스트해 본다.
 ```
 sudo iptables -F
 sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
@@ -120,7 +120,7 @@ sudo iptables -A INPUT -p tcp -j DROP
 
 ```
 
-iptables의 사용법은 [구글링](https://www.google.com/search?q=iptables+%EC%98%88%EC%A0%9C)을 통해 익혀 두시기 바랍니다.
+iptables의 사용법은 [구글링](https://www.google.com/search?q=iptables+%EC%98%88%EC%A0%9C)을 통해 익히도록 한다.
 
 ## Youtube
 https://youtu.be/8CEXieYDbyM
