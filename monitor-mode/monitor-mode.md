@@ -5,7 +5,7 @@
 * 일부 노트북은 자체 내장 WiFi 칩셋이 monitor mode를 지원하는 경우도 있다(LG그램, Mac)
 * [monitor mode chipset](https://www.google.com/search?q=monitor+mode+chipset), [best kali adapter](https://www.google.com/search?q=best+kali+adapter) 등으로 검색을 해서 USB Adapter를 구매한다.
 * 해외 제품의 경우 같은 제품을 2개 이상 구매하는 경우 전파법에 위배되어 세관에 걸릴 수 있다.
-* [TL-WN722N](https://www.google.com/search?q=monitor+mode+chipset) 제품은 최신 제품이 monitor mode를 지원하지 않는다.
+* [TL-WN722N](https://www.google.com/search?q=TL-WN722N) 제품은 최신 제품이 monitor mode를 지원하지 않는다.
 * 국내 제품의 경우 [iptime N150UA Solo](https://www.google.com/search?q=iptime+N150UA+Solo)이 있는데, 2.4GHz 대역만 지원하며 패킷이 많이 잡히지 않는다는 단점이 있으나, 가격이 저렴하며 실습용으로는 무난하다(공동 구매를 하면 배송비를 절약할 수 있다).
 
 ## linux 설치
