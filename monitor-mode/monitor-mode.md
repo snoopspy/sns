@@ -72,3 +72,6 @@ airodump-ng <interface> -c <channel>
 ```
 iw [options] dev <interface> set channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz]
 ```
+
+## Youtube
+https://youtu.be/YDfbYavZ8iU
