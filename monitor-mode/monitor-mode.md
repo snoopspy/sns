@@ -74,4 +74,4 @@ iw [options] dev <interface> set channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|1
 ```
 
 ## Youtube
-https://youtu.be/YDfbYavZ8iU
+https://youtu.be/GQqjdxwbEWE
