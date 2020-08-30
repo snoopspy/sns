@@ -1,0 +1,17 @@
+크롬 하나 띄워 놓는다.
+adapter를 분리한다.
+/etc/NetworkManager/NetworkManager.conf 파일에서 unmanaged-devices를 삭제한다.
+
+[설명]
+. 위키피디어에서 manageed mode와 monitor mode를 설명
+. adapter 꼽기
+. monitor mode로의 변환
+. interface name 변경
+. NetworkManager의 처리
+. airodump-ng mon0
+. airodump-ng mon0 -c 1
+. fast.com 보여 주기
+. WiFiAnalyzer 보여 주기
+. 노트북 보여 주기
+. gilgil_mini 보여 주기
+. 어댑터들 보여 주기.
