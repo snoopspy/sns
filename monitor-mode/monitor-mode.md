@@ -38,7 +38,7 @@ airmon-ng start <interface>
 ```
 ifconfig <old interface> down
 ip link set <old interface> name <new interface>
-ifcofig <new interface> up 
+ifconfig <new interface> up 
 ```
 
 ## Network Manager의 처리
