@@ -2,7 +2,6 @@ Dot11 Frame
 ===
 
 802.11(Dot11) Frame은 크게 3가지의 종류로 나뉜다.  
-<br>
 * Management Frames
   * Association request
   * Association response
@@ -16,7 +15,6 @@ Dot11 Frame
   * Authentication
   * Deauthentication
   * Action
-<br>
 * Control Frames
   * Block ACK request
   * Block ACK
@@ -26,7 +24,6 @@ Dot11 Frame
   * ACK
   * CF-End
   * CF-End/CF-Ack
-<br>
 * Data Frames
   * Data
   * Data+CF-Ack
