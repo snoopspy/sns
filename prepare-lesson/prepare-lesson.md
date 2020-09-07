@@ -11,7 +11,7 @@ https://github.com/snoopspy/cpu_test tool을 가지고 CPU의 할당에 제대�
 "sudo apt install wireshark" 명령어로 설치할 수 있습니다. Windows에서는 wireshark.org 사이트에 가서 설치하시면 됩니다(WinPcaP과 npcap이 중복되어 설치되지 않도록 할 것). 네트워크 패킷을 잡는 일이 많으니까 Host OS 및 Guest OS 두군데 다 설치해 놓으시기 바랍니다.
 
 * SnoopSpy 설치 ([snoopspy.com](http://snoopspy.com/))  
-아직 Windows용 밖에 없습니다. 수업 시간에 종종 사용하는 일이 있으니 미리 설치해 두세요.
+아직 Windows용 밖에 없습니다. 수업 시간에 종종 사용하는 일이 있으니 미리 설치해 두세요. [WinPcap과 Npcap 설치 문제 해결](https://gilgil.gitlab.io/2019/07/25/1.html) 문서를 참고하시기 바랍니다.
 
 * Windows에서 불필요한 어댑터 삭제  
 Windows에서 "ipconfig" 명령어를 실행하면 불필요한 어댑터들이 많이 나옵니다. 다음과 같응 명령어를 통해서 정리를 해 줍니다(관리자 권한으로 실행해야 함).
