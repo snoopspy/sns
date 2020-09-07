@@ -16,6 +16,8 @@ sample : airodump mon0
 
 * 가능하다면 Channel Hopping 기능을 추가한다.
 
+* [가상의 무선 네트워크 어댑터를 생성](https://gilgil.gitlab.io/2020/08/31/1.html) 기법을 이용하여 디버깅을 편하게 할 수도 있다.
+
 * 필요한 경우 GitHub에 있는 [airodump-ng](https://github.com/aircrack-ng/aircrack-ng/tree/master/src/airodump-ng) 소스 코드를 참조한다.
 
 ### 기타
