@@ -17,7 +17,7 @@ sample : deauth-attack 00:11:22:33:44:55 66:77:88:99:AA:BB
 
 * \<station mac\>까지 명시되는 경우에는 AP unicast, Station unicast frame을 발생시킨다.
 
-* 너무 많은 패킷을 발생시키는 경우 무선 네트워크 사용에 지장을 줄 수 있으므로 적당한 sleep을 넣어 준다.
+* 너무 많은 패킷을 발생시키면 무선 네트워크 사용에 지장을 줄 수 있으므로 적당히 sleep을 넣어 준다.
 
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
