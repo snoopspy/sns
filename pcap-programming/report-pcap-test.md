@@ -30,6 +30,10 @@ sample: pcap-test wlan0
 
     * struct libnet_tcp_hdr (1519 line)
 
+* pcap_loop, pcap_compile, pcap_setfilter와 같은 API는 사용하지 않는다.
+
+* [Dummy interface를 이용하여 디버깅을 쉽게할 수 있는 방법](https://gilgil.gitlab.io/2020/07/23/1.html)을 알면 과제 수행에 도움이 된다.
+
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
