@@ -9,7 +9,7 @@ sum-test
 ### 상세
 * sum-test 프로젝트를 git 사이트에 올린다.
 
-* sum.cpp 및 Makefile은 2번 이상 commit하도록 하여 git에서 변경 이력을 확인할 수 있도록 한다.
+* 2번 이상 commit하도록 하여 git에서 변경 이력을 확인할 수 있도록 한다.
 
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile)도 같이 올릴 것.
