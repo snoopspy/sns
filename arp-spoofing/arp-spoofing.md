@@ -1,7 +1,7 @@
 ARP spoofing
 ===
 
-[arp-spoofing.odp](arp-spoofing.odp) 혹은 [arp-spoofing.ppt](arp-spoofing.ppt) 파일을 다운받는다.
+[arp-spoofing.odp](arp-spoofing.odp) or [arp-spoofing.ppt](arp-spoofing.ppt)
 
 ## Youtube
 ARP spoofing(1) : https://youtu.be/PmLM8XqJFQw
