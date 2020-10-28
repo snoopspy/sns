@@ -2,7 +2,7 @@ TCP and UDP
 ===
 
 ## 준비
-* https://gitlab.com/gilgil/simple-client-server.git repository를 clone 받아서 tc(tcp client), ts(tcp server), uc(udp client), us(udp server) 프로그램을 빌드한다.
+* https://gitlab.com/gilgil/scs.git repository를 clone 받아서 tc(tcp client), ts(tcp server), uc(udp client), us(udp server) 프로그램을 빌드한다.
 
 
 ## UDP 통신 테스트
