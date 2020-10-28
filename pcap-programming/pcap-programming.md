@@ -23,7 +23,7 @@ pcap_t라는 핸들을 이용하여 packet을 수집(capture) 및 전송(send)�
 
 * http://www.tcpdump.org/pcap.html 에 있는 내용을 숙지한다.
 
-* 간단한 버전으로 실습해 본다( [pcap-test.zip](pcap-test.zip) ).
+* 간단한 버전으로 실습해 본다( [pcap-test](https://gitlab.com/gilgil/pcap-test) ).
 
 ## Windows
 * WinPcap( https://www.winpcap.org )이나 npcap( https://npcap.org or https://nmap.org/npcap )을 설치하여 빌드 환경을 구축한다.
