@@ -11,9 +11,9 @@ iptables -A INPUT -j NFQUEUE --queue-num 0
 
 apt install로 dependency를 주고난 이후
 ```
-#apt install libmnl-dev
-#apt install libnfnetlink-dev
-apt install libnetfilter-queue-dev
+# sudo apt install libmnl-dev
+# sudo apt install libnfnetlink-dev
+sudo apt install libnetfilter-queue-dev
 ```
 
 예제를 빌드합니다.
