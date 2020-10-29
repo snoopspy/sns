@@ -1,8 +1,8 @@
 다음과 같은 명령어로 local process로 송수신되는 IP packet을 모두 netfilter queue로 넘기도록 하겠습니다. queue-num은 기본적으로 0번입니다.
 ```
-iptables -F
-iptables -A OUTPUT -j NFQUEUE --queue-num 0
-iptables -A INPUT -j NFQUEUE --queue-num 0
+sudo iptables -F
+sudo iptables -A OUTPUT -j NFQUEUE --queue-num 0
+sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 ```
 
 송수신되는 IP packet이 모두 차단되는 것처럼 확인이 됩니다. 이후 netfilter queue를 이용하여 해당 IP packet을 처리해 주어서 ACCEPT나 DROP 처리를 해 주는 것이 일반적입니다. 이것이 linux firewall을 code로 처리하는 가장 보편적인 방법 중의 하나입니다.
