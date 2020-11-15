@@ -51,13 +51,13 @@ $ git config --global --list
 
 github.com 사이트에 들어 가서 자신의 계정을 생성합니다.
 
-"sum_test"라는 repository를 생성합니다.  
+"sum-test"라는 repository를 생성합니다.  
 
 ![sc1](sc1.png)  
 
 git clone 명령어를 이용하여 repository를 가져 옵니다.
 ```
-$ git clone https://github.com/snoopspy/sum_test.git
+$ git clone https://github.com/snoopspy/sum-test.git
 ```
 
 
@@ -68,7 +68,7 @@ $ git clone https://github.com/snoopspy/sum_test.git
 1. sum.h : sum이라는 함수를 선언(declaration)한다.  
 2. sum.cpp : sum이라는 함수를 정의(definition)한다.  
 3. main.cpp : sum(10)을 호출한다. sum이라는 함수는 sum.h에 선언되어 있다.  
-4. Makefile : sum_test라는 executable file을 만들고 관리한다.  
+4. Makefile : sum-test라는 executable file을 만들고 관리한다.  
 
 sum.h, sum.cpp 코드를 만들고 git add 및 commit을 합니다.
 
@@ -118,17 +118,17 @@ Makfile을 만들고 git add 및 commit을 합니다.
 
 ```
 #Makefile
-all: sum_test
+all: sum-test
 
-sum_test: sum.o main.o
-	g++ -o sum_test sum.o main.o
+sum-test: sum.o main.o
+	g++ -o sum-test sum.o main.o
 
 main.o: sum.h main.cpp
 
 sum.o: sum.h sum.cpp
 
 clean:
-	rm -f sum_test
+	rm -f sum-test
 	rm -f *.o
 ```
 
@@ -149,8 +149,8 @@ github.com 뿐만 아니라 git 서비스를 제공해 주는 다양한 사이�
 "git clone" 명령으로 git repository를 가져올 수도 있지만 "git init" 명령어로 git repository를 생성할 수도 있습니다.
 
 ```
-$ mkdir sum_test
-$ cd sum_test
+$ mkdir sum-test
+$ cd sum-test
 $ git init
 ```
 
