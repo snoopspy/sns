@@ -3,8 +3,8 @@ Out of path 환경에서 TCP flag(RST, FIN)를 이용하여 사이트 차단하�
 
 ### 실행
 ```
-syntax : tcp-block <pattern>
-sample : tcp-block "Host: test.gilgil.net"
+syntax : tcp-block <interface> <pattern>
+sample : tcp-block wlan0 "Host: test.gilgil.net"
 ```
 
 ### 상세
