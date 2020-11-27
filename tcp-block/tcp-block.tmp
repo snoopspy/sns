@@ -1,0 +1,39 @@
+[prepare]
+ethtool -K eth0 rx off tx off
+
+tcp-block-diagram.drawio 파일을 크롬에서 열어 놓는다.
+
+scrcpy
+android termux를 띄운다.
+su
+
+Terminal 2개를 띄워 하나는 scs 명령어, 다른 하나는 snoopspy을 띄워 놓을 준비를 한다.
+tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420
+
+
+[record]
+
+https://sex.com에 들어가 RST packet 수신을 확인한다.
+
+http://sex.com에 들어가 FIN packet 수신을 확인한다.
+
+tcp-block-diagram.drawio 파일을 설명한다.
+
+snoopspy를 띄운다.
+
+forwardRst를 보여 준다.
+
+forwardFin을 보여 준다.
+
+backwardRst를 보여 준다.
+
+backwardFin을 보여 준다(warning.or.kr).
+
+backwardFin을 보여 준다(gilgil.gitlab.io).
+
+실제 웹브라우저를 이용하여 사이트들이 차단되는 것을 보여 준다.
+
+youtube.com, google.com 은 차단이 되지 않는 것을 보여 준다.
+
+코드를 보여 준다.
+
