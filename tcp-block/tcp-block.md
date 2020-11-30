@@ -56,7 +56,7 @@ TCP block
 
 * IPv4, TCP, UDP header에는 checksum이라는 field가 있다. 이러한 checksum 값 계산은 OS가 해주는데, 이러한 부하(load)를 경감(offload)해 주는 기능이 최신 OS에는 탑재되어 있다. Network adapter가 offload를 지원해주고, OS가 이를 인식하는 경우 checksum offload가 활성화되어 OS는 checksum 계산을 직접해 주지 않고 그냥 hardware로 packet을 넘겨 버린다. 이 경우 Wireshark로 packet을 잡으면 checksum이 잘못되었다고 나오지만, 실제 송신되는 packet에서의 checksum 계산은 adapter가 처리를 해서 제대로 된 checksum 값을 가진 packet이 송신된다.
 
-* Wireshark에는 기본적으로 checksum validation 기능이 off되어 있어서 checksum이 맞는지 확인하는 로직이 비활성하되어 있다. 송신되는 packet의 checksum 값이 제대로 되어 있나 확인하기 위하여 Wireshark - Edit - Preferences - Protocols - IPv4에 가서 "Validate IPv4 summary in protocol tree"를 확성화시킨다. 똑같이 TCP 및 UDP에서도 checksum validation 기능을 활설화한다. 참고로 IPv6에는 checksum field가 존재하지 않는다.
+* Wireshark에는 기본적으로 checksum validation 기능이 off되어 있어서 checksum이 맞는지 확인하는 로직이 비활성화되어 있다. 송신되는 packet의 checksum 값이 제대로 되어 있나 확인하기 위하여 Wireshark - Edit - Preferences - Protocols - IPv4에 가서 "Validate IPv4 summary in protocol tree" 기능을 enable시킨다. 똑같이 TCP 및 UDP에서도 checksum validation 기능을 enable한다. 참고로 IPv6에는 checksum field가 존재하지 않는다.
 
 * OS 차원에서 checksum offload가 켜져 있는 상태에서 Wireshark로 packet을 잡으면 빨간 색의 packet이 너무 많이 보여 분석에 지장을 준다. 다음과 같은 명령어로 offload 기능을 비활성화시키는 것이 좋다.
 ```
