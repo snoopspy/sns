@@ -76,5 +76,5 @@ iw [options] dev <interface> set channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|1
 ```
 
 ## Youtube
-Monitor mode : https://youtu.be/GQqjdxwbEWE  
-Monitor and managed mode conversion tools(gmon) : https://youtu.be/NsnGbZDrzpg
+* Monitor mode : https://youtu.be/GQqjdxwbEWE  
+* Monitor and managed mode conversion tools(gmon) : https://youtu.be/NsnGbZDrzpg
