@@ -6,8 +6,8 @@
 * [monitor mode chipset](https://www.google.com/search?q=monitor+mode+chipset), [best kali adapter](https://www.google.com/search?q=best+kali+adapter) 등으로 검색을 해서 USB Adapter를 구매한다.
 * 해외 제품의 경우 같은 제품을 2개 이상 구매하는 경우 전파법에 위배되어 세관에 걸릴 수 있다.
 * [TL-WN722N](https://www.google.com/search?q=TL-WN722N) 제품은 최신 제품이 monitor mode를 지원하지 않는다.
-* 국내 제품의 경우 [iptime N150UA Solo](https://www.google.com/search?q=iptime+N150UA+Solo)이 있는데, 2.4GHz 대역만 지원하며 패킷이 많이 잡히지 않는다는 단점이 있으나, 가격이 저렴하며 실습용으로는 무난하다(공동 구매를 하면 배송비를 절약할 수 있다) - 2020년 하반기부터 해당 제품 생산이 중단됨. ㅠㅠ
-* 국내 제품에서 [ipTIME A2000UA-4dBi](https://www.google.com/search?q=ipTIME+A2000UA-4dBi)은 5GHz까지 지원을 해주는 어댑터가 있다. [Install ipTIME A2000UA-4dBi driver in linux](https://gilgil.gitlab.io/2020/11/27/1.html) 방식을 이용해서 linux에 설치가 가능하다.
+* 국내 제품의 경우 [iptime N150UA Solo](https://www.google.com/search?q=iptime+N150UA+Solo) 제품이 있는데, 2.4GHz 대역만 지원하며 패킷이 많이 잡히지 않는다는 단점이 있으나, 가격이 저렴하며 실습용으로는 무난하다. 그런데, 2020년 하반기부터 해당 제품 생산이 중단됨. ㅠㅠ
+* 국내 제품의 경우 [ipTIME A2000UA-4dBi](https://www.google.com/search?q=ipTIME+A2000UA-4dBi) 제품은 5GHz까지 지원한다(가격이 흠좀무). [Install ipTIME A2000UA-4dBi driver in linux](https://gilgil.gitlab.io/2020/11/27/1.html) manual을 이용해서 linux에 설치가 가능하다.
 
 
 ## linux 설치
