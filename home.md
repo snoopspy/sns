@@ -41,7 +41,8 @@ System Network Security
 ## C/C++
 * [Loop variable optimize](/loop-variable-optimize/loop-variable-optimize)
 * [switch statement](/switch-statement/switch-statement)
-* [Memory leak detect using gmem](https://youtu.be/0fIk5k7Gi-M)
+* [STL](/stl/stl)
+* [gmem](/gmem/gmem)
 
 ## Qt
 * [Setup Qt Android Development](/setup-qt-android-develop/setup-qt-android-develop)
