@@ -8,7 +8,7 @@ sample : ip-stat test.pcap
 ```
 
 ### 상세
-* pcap_open_live 함수를 사용하지 않고 [pcap_open_offline](https://linux.die.net/man/3/pcap_open_offline) 함수를 사용하면 실제 NIC이 아닌 [pcap 파일]로부터 패킷을 읽을 수 있다.
+* pcap_open_live 함수를 사용하지 않고 [pcap_open_offline](https://linux.die.net/man/3/pcap_open_offline) 함수를 사용하면 실제 NIC이 아닌 [pcap 파일](test.pcap)로부터 패킷을 읽을 수 있다.
 
 * Wireshark - Statistics - Endpoints - IPv4 참고할 것.
 
