@@ -14,6 +14,8 @@ sample : ip-stat test.pcap
 
 * 가능하다면 IPv4 뿐만 아니라 Ethernet, TCP, UDP등에 대한 Endpoint 정보도 출력해 볼 것.
 
+* 가능하다면 Endpoint 뿐만 아니라 Conversation 정보도 출력해 볼 것.
+
 * sample pcap file : [test.pcap](test.pcap)
 
 ### 기타
