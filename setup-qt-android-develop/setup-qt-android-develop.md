@@ -25,6 +25,10 @@ Qt에서 Android 앱을 개발하는 데 필요한 setup 과정을 설명한다.
 ```
 $ sudo apt install openjdk-8-jdk
 ```
+혹은(Kali 2020 버전)
+```
+$ sudo apt install default-jdk
+```
 
 ## SDK 설치
 * Android Studio 설치 없이 순수 Android SDK파일(zil file)만 다운받아 로컬에 풀어 놓으면 된다.
