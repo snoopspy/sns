@@ -19,9 +19,9 @@ Qt에서 Android 앱을 개발하는 데 필요한 setup 과정을 설명한다.
 
 ## JDK 설치
 
-* 버전 8을 설치하도록 한다. http://openjdk.java.net 에 관련 설명이 있으니 참고한다.
+* http://openjdk.java.net 에 관련 설명이 있으니 참고한다.
 
-* 다음과 같은 명령어로 설치를 할 수 있다.
+* 다음과 같은 명령어로 설치를 할 수 있다(버전 8).
 ```
 $ sudo apt install openjdk-8-jdk
 ```
