@@ -56,6 +56,7 @@ $ sudo apt install default-jdk
 
 ## Qt Creator 설정
 * Qt Creator > Tools > Options > Devices > Android 메뉴에서 JDK, SDK, NDK 설정을 하여 빨간 X자 표시가 없어지도록 설정을 한다.
+  * JDK location은 "/usr/lib/jvm/jdk8u275-b01"식으로 버전 8을 선택한다. 그렇지 않으면 "Could not determine java version from '11.0.10-ea'."와 같은 에러메세지가 빌드 과정에서 나타난다.
 
 * 처음 설정을 하게 되면 필요한 파일을 다시 다운받게 되는데 이는 한번만 다운받아 설치를 하면 된다(Qt Creator에서 자동으로 이루어짐).
 
