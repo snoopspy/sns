@@ -17,7 +17,7 @@ sequenceDiagram
     Station-->>AP: EAPOL 4
     Station->AP: Data
 ```
-* Station은 주기적으로 "이러한 AP가 있어요?"라고 broadcast로 ssid 이름을 포함하여 질의한다(Probe Request). 이는 Station이 AP에 접속되어 있는 경우에도 주기적으로 발생한다(신호 세기가 더 높은 AP에 접속하기 위해서).
+* Station은 주기적으로 "이러한 AP가 있어요?"라고 broadcast로 SSID를 포함하여 질의한다(Probe Request). 이는 Station이 AP에 접속되어 있는 경우에도 주기적으로 발생한다(신호 세기가 더 높은 AP에 접속하기 위해서).
 * AP은 Station이 보내는 Probe Request 패킷에 자신의 SSID가 포함되어 있는 경우 응답을 해야 한다(Probe Response).
 * AP에서 Hidden SSID 기능을 활성화하는 경우 SSID가 노출되지 않는다고 알려져 있는데, Probe Request 및 Probe Response 패킷에 의해 쉽게 노출될 수 있다.
 * AP가 Open mode일 때에는 EAPOL 패킷이 발생하지 않는다.
