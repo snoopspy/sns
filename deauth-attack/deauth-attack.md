@@ -1,6 +1,3 @@
-Deauth attack
-===
-
 Station이 AP에 접속하는 과정은 다음과 같다.
 
 ```mermaid
