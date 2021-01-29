@@ -35,6 +35,7 @@ System Network Security
 ## Wireless
 * [Monitor Mode](/monitor-mode/monitor-mode)
 * [Dot11 Frame](/dot11-frame/dot11-frame) [(airodump)](/dot11-frame/report-airodump) [(beacon-flood)](/dot11-frame/report-beacon-flood)
+* [Hidden SSID](/hidden-ssid//hidden-ssid)
 * [Deauth Attack](/deauth-attack/deauth-attack) [(deauth-attack)](/deauth-attack/report-deauth-attack)
 * [Aircrack](/aircrack/aircrack)
 
