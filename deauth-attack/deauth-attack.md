@@ -18,7 +18,7 @@ sequenceDiagram
 * AP은 Station이 보내는 Probe Request 패킷에 자신의 SSID가 포함되어 있는 경우 응답을 해야 한다(Probe Response).
 * AP가 Open mode일 때에는 EAPOL 패킷이 발생하지 않는다.
 
-<br><br>
+<br>
 연결을 끊을 때에는 Deauthentication(줄여서 Deauth) 혹은 Disassociation packet이 발생하며 다음과 같은 종류가 있다. Attacker는 이러한 Deauth 패킷을 발생시켜 기존의 연결을 강제적으로 끊을 수 있으며 이를 Deauth Attack이라 한다.
 
 |Name|Direction|Description|
