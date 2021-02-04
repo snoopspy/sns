@@ -9,7 +9,22 @@ sample : beacon-flood mon0 ssid-list.txt
 
 ### 상세
 
-* lintins 사용 : [libtins](http://libtins.github.io/)를 설치하고 예제를 직접 따라해 보면서 사용 방법을 익힌다. [Beacon Flooding Attack](https://gilgil.gitlab.io/2020/09/07/2.html) 예제를 빌드하고 실행해 본다(예전 스마트폰에서는 SSID List가 보이지만 요즘 스마트폰에서는 보이지 않는 현상이 있다).
+* [libtins](http://libtins.github.io/)를 설치하고 예제를 직접 따라해 보면서 사용 방법을 익힌다.
+```
+sudo apt install cmake libtest-dev libssl-dev
+git clone https://github.com/mfontanini/libtins.git
+cd libtins
+git tag
+git checkout <latest tag>
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
+sudo cp /usr/local/lib/libtins* /usr/lib
+```
+
+* [Beacon Flooding Attack](https://gilgil.gitlab.io/2020/09/07/2.html) 예제를 빌드하고 실행해 본다(예전 스마트폰에서는 SSID List가 보이지만 요즘 스마트폰에서는 보이지 않는 현상이 있다).
 
 * libtins를 사용하지 않고 직접 Beacon frame(Radiotap Header + IEEE 802.11 Beacon frame + IEEE 802.11 Wireless Management)을 만들어 하여 전송하는 프로그램을 제작한다.  
 
