@@ -15,7 +15,7 @@ sample : beacon-flood mon0 ssid-list.txt
 
 * Beacon frame을 직접 만들기 어려울 경우 기존의 실제 Beacon frame을 pcap으로 잡아서 거기에 SSID 값만 바꾸어서 전송해 보도록 한다.
 
-* ssid-list.txt 에 포함된 SSID 갯수는 일단 하나만 지정하여 제대로 작동하는지 확인하고, 확인이 된 이후에는 10개 이상을 넣어서 작동하는지 확인한다.
+* ssid-list.txt 에 포함된 SSID는 일단 영어로 작성하고 다음에 한글로 테스트해 본다. 그리고 SSID 갯수를 하나만 설정하여 제대로 작동하는지 확인하고, 확인이 된 이후에는 10개까지 넣어서 작동하는지 확인한다.
 
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
