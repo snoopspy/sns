@@ -49,7 +49,7 @@ ifconfig <new interface> up
   1. "/etc/NetworkManager/NetworkManager.conf" 파일 마지막에 다음과 같은 항목을 추가하여 Network-Manager로 하여금 특정 interface(이름이나 mac으로)에 대해서 manage를 하지 말도록 설정한다. 설정이 바뀐 이후에는 네트워크 서비스를 재시작( "systemctl restart NetworkManager" )하거나 컴퓨터를 재부팅해야 한다.
   ```
   [keyfile]
-  unmanaged-devices=interface-name:mon*;interface-name:wlan1;mac:00:11:22:33:44:55
+  unmanaged-devices=interface-name:mon*;interface-name:wlan*mon;mac:00:11:22:33:44:55
   ```
 
   2. 해당 어댑터의 monitor mode 작동을 방해하는 프로세스가 떠 있을 경우 어댑터의 작동이 제대로 된 작동을 하지 못할 수 있다. 이 경우 다음과 같은 명령어를 통하여 해당 프로세스들을 죽이도록 한다(이 경우 NetworkManager와 같은 프로세스의 중지로 인해 정상적인 인터넷 사용이 되지 않을 수 있음).
