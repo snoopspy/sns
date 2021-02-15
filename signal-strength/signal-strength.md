@@ -1,19 +1,19 @@
 802.11 환경에서 AP나 Station이 신호를 보내게 되면, monitor mode adapter에서는 그 신호 세기를 알 수 있으며, 신호 세기 정보는 radiotap header에 존재한다(일반적인 WiFi Device는 AP의 신호 세기만을 알 수 있지만 monitor mode에서는 Station의 신호 세기까지 알 수 있다).
 
-대부분의 802.11 frame은 header 부분에 addr1, addr2, addr3의 정보를 가지며(Aknowledgement frame과 같은 경우는 하나의 addr 정보만 존재) 이 3개의 addr 정보는 각각 source, destination, transmitter, receiver 정보를 나타낸다.
+대부분의 802.11 frame은 header 부분에 addr1, addr2, addr3의 정보를 가지며(Aknowledgement frame과 같은 경우는 하나의 addr 정보만 존재) 이 3개의 addr 정보는 각각 sa(source), da(destination), ta(transmitter), ra(receiver) 정보를 나타낸다.
 
-다음과 같이 Station1에서 Station2로 어떠한 ethernet frame을 보낸다고 하는 경우 source, destination, transmitter, receiver 정보는 다음과 같다. source, destination은 ethernet frame의 smac, dmac의 정보라고 생각하면 된다.
+다음과 같이 Station1에서 Station2로 어떠한 ethernet frame을 보낸다고 하는 경우 sa, da, ta, ra 정보는 다음과 같다. sa와 da는 ethernet frame의 smac, dmac의 정보라고 생각하면 된다.
 
 ```mermaid
 sequenceDiagram
-    Station1(BB)-->>AP(AA): frame1
-    AP(AA)-->>Station2(CC): frame2
+    Station1(AA)-->>AP(BB): frame1
+    AP(BB)-->>Station2(CC): frame2
 ```
 
-||source|destination|transmitter|receiver|
+||sa|da|ta|ra|
 |-|-|-|-|-|
-|frame1|BB|CC|BB|AA|
-|frame2|BB|CC|AA|CC|
+|frame1|AA|CC|AA|BB|
+|frame2|AA|CC|BB|CC|
 
 ## wireshark를 이용하여 특정 device의 signal strength 정보 알아내기
 
