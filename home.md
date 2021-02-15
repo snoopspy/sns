@@ -37,7 +37,7 @@ System Network Security
 * [Dot11 Frame](/dot11-frame/dot11-frame) [(airodump)](/dot11-frame/report-airodump) [(beacon-flood)](/dot11-frame/report-beacon-flood)
 * [Hidden SSID](/hidden-ssid//hidden-ssid)
 * [Deauth Attack](/deauth-attack/deauth-attack) [(deauth-attack)](/deauth-attack/report-deauth-attack)
-* [Signal Strength](/signal-strength/signal-strength)
+* [Signal Strength](/signal-strength/signal-strength) [(signal-strength)](/signal-strength/report-signal-strength)
 * [Aircrack](/aircrack/aircrack)
 
 ## C/C++
