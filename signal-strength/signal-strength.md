@@ -17,7 +17,7 @@ sequenceDiagram
 
 ## wireshark를 이용하여 특정 device의 signal strength 정보 알아내기
 
-* Statistics -I/O Graphs 메뉴를 클릭하고 더하기 버튼(Add a new graph)을 눌러서 다음과 같은 graph를 추가한다.
+* Statistics - I/O Graphs 메뉴를 클릭하고 더하기 버튼(Add a new graph)을 눌러서 다음과 같은 graph를 추가한다.
 
 |Graph Name|Display Filter|Y Axis|Y Field|
 |-|-|-|-|
