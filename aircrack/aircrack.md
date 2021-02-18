@@ -5,7 +5,7 @@
 ## 실습
 * 공유기(SSID : gilgil-ap)의 비밀번호를 알아 내어라. 비밀번호는 "gilgil-is-handsome-000000" 에서부터 "gilgil-is-handsome-9999999" 까지 중의 하나이다.
 
-* 해당 공유기에 Deauth Attack을 하여 최초 하나의 Station으로부터의 재연결을 시도하는 과정을 pcap file로 저장한다.
+* 해당 공유기에 Deauth Attack을 하여 Station으로부터의 재연결을 시도하는 과정을 pcap file로 저장한다.
 
 * 해당 pcap file[(gilgil-ap-beacon-eapol1234.pcap)](gilgil-ap-beacon-eapol1234.pcap)에는 AP가 전송하는 beacon frame 하나와 Station이 AP에 접속할 때 발생한 eapol 패킷이 들어가 있다.
 
