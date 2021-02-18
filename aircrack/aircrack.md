@@ -19,3 +19,7 @@ aircrack-ng aircrack-ng gilgil-ap-beacon-eapol1234.pcap -w wordlist.txt
 
 * GPU가 달린 머신이라면 hashcat이라는 툴을 이용하여 좀 더 빠르게 Dictionary attack, Brute-Force attack, Rule-based attack을 실행할 수 있다.  
 [https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2](https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2)
+
+
+## References
+https://github.com/wifihack/doc
