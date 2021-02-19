@@ -14,3 +14,7 @@ PTK = f(SSID, Password, AP Mac, STA Mac, ANonce, SNonce)
 SSID는 Beacon frame에 존재하며 AP Mac, STA Mac, ANonce, SNonce는 EAPOL frame에 존재한다. 즉 Attacker는 비밀번호를 알고 있다는 것을 가정하에 Beacon과 EAPOL frame을 획득했다면 WPA 환경에서 AP와 특정 Station간에 송수신되는 Data frame의 decrypt가 가능하다.
 
 Wireshark - Edit - Preferences - Protocols - IEEE 802.11 wireless LAN - Decryption keys Edit를 클릭해서 Key type은 wpa-pwd, Key는 \<password\>:\<ssid\> 의 형식으로 추가한다. 이후 aircrack과 마찬가지로 Deauth frame을 전송하여 EAPOL frame을 획득하고, 그 이후 발생하는 Encrypted Data frame에 대해서 decrypt를 할 수 있다. 
+
+
+## Youtube
+https://youtu.be/KRDKBxrNBzI
