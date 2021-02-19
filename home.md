@@ -39,6 +39,7 @@ System Network Security
 * [Deauth Attack](/deauth-attack/deauth-attack) [(deauth-attack)](/deauth-attack/report-deauth-attack)
 * [Signal Strength](/signal-strength/signal-strength) [(signal-strength)](/signal-strength/report-signal-strength)
 * [Aircrack](/aircrack/aircrack)
+* [WPA Decrypt](/wpa-decrypt/wpa-decrypt)
 
 ## C/C++
 * [Loop variable optimize](/loop-variable-optimize/loop-variable-optimize)
