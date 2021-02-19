@@ -3,7 +3,7 @@
 * ANonce는 eapol 1, 3 패킷에 존재하고 SNonce는 eapol 2 패킷에 존재한다. 그러므로 eapol는 1이나 3 패킷 둘 중 하나가 포함되어야 하며, 동시에 eapol 2 패킷도 존재해야 한다.
 
 ## 실습
-* 공유기(SSID : gilgil-ap)의 비밀번호를 알아 내어라. 비밀번호는 "gilgil-is-handsome-000000" 에서부터 "gilgil-is-handsome-9999999" 까지 중의 하나이다.
+* 공유기(SSID : gilgil-ap)의 비밀번호를 알아 내어라. 비밀번호는 "gilgil-is-handsome-000000" 에서부터 "gilgil-is-handsome-9999999" 까지 중의 하나라고 가정한다.
 
 * 해당 공유기에 Deauth Attack을 하여 Station으로부터의 재연결을 시도하는 과정을 pcap file로 저장한다.
 
