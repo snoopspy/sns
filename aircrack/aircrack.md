@@ -14,7 +14,7 @@
 * 다음과 같은 명령어로 공유기의 비밀번호를 알아낼 수 있다. wordlist가 1백만 개정도일 때 대략 어느 정도 시간이 소요되는지를 파악하도록 한다.
 
 ```
-aircrack-ng aircrack-ng gilgil-ap-beacon-eapol1234.pcap -w wordlist.txt 
+aircrack-ng gilgil-ap-beacon-eapol1234.pcap -w wordlist.txt 
 ```
 
 * GPU가 달린 머신이라면 hashcat이라는 툴을 이용하여 좀 더 빠르게 Dictionary attack, Brute-Force attack, Rule-based attack을 실행할 수 있다.  
