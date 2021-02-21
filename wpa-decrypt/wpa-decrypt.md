@@ -2,8 +2,8 @@ Open mode에서는 송수신되는 Data frame이 암호화되지 않고 송수�
 
 |Mode|QoS Data frame|
 |-|-|
-|Open Mode|Radiotap header + Qos Data Header + LLC + PlainText  |
-|WPA(2) Mode|Radiotap header + Qos Data Header + LLC + CipherText encrypted with PTK|
+|Open Mode|Radiotap Header + Qos Data Header + LLC + PlainText  |
+|WPA(2) Mode|Radiotap Header + Qos Data Header + LLC + CipherText encrypted with PTK|
 
 PTK는 다음과 같은 요소로 결정이 된다([https://github.com/wifihack/doc](https://github.com/wifihack/doc)).
 
