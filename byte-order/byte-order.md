@@ -47,8 +47,8 @@ void dump(void* p, size_t n) {
 	while (true) {
 		printf("%02X ", *u8++);
 		if (++i >= n) break;
-		if (i % 8 == 0)
-			printf("\n");
+		if (i % 8 == 0) printf(" ");
+		if (i % 16 == 0) printf("\n");
 	}
 	printf("\n");
 }
