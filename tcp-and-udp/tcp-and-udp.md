@@ -88,7 +88,7 @@ sudo iptables -D INPUT -p tcp --dport 1234 -j DROP
 
 * TCP는 제대로 된 송수신의 보장을 위해 SEQ number 및 ACK number 필드를 사용한다.
 
-* TCP의 ACK flag는 ACK number가 유요한지 아닌지를 의미하며, 클라이언트가 서버로 접속을 시도하는 제일 처음 packet을 제외하고는 모두 1의 값을 가진다.
+* TCP의 ACK flag는 ACK number가 유효한지 아닌지를 의미하며, 클라이언트가 서버로 접속을 시도하는 제일 처음 packet을 제외하고는 모두 1의 값을 가진다.
 
 * TCP의 SEQ number는 송신하는 Data의 크기만큼 증가하고, 특정 flag(SYN, FIN)에 대해 1(하나) 증가한다(RST flag에 대해서는 무시함).
 
