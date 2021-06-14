@@ -25,6 +25,8 @@ sample : echo-server 1234 -e -b
 
 * client는 server로부터 메세지를 받으면 화면에 출력한다.
 
+* server는 여러개 client의 접속 요청 및 데이터 처리가 가능해야 한다(힌트 - thread).
+
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
