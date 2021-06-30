@@ -33,7 +33,7 @@ linux의 dummy interface와 비슷한 역할을 합니다.
   재부팅하여 wireshark에서 해당 어댑터가 보이는지 확인.
   ```
 * g++ 설치  
-"sudo apt install g++" 명령어를 통하여 C++ 컴파일러를 설치합니다.
+  Linux에서 "sudo apt install g++" 명령어를 통하여 C++ 컴파일러를 설치합니다.
 
 * Qt 설치 ([qt.io](http://qt.io))  
 C/C++ 개발 IDE로 QtCreator라는 것이 있는데, Linux에서 C/C++을 많이 해 본 사람은 굳이 설치할 필요가 없습니다. apt(Advanced Package Tool)로 설치하지 말고 https://qt.io > Download. Try. Buy. > Go open source > Download the Qt Online Installer로 설치를 하시기 바랍니다.
