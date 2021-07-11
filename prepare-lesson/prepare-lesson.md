@@ -4,7 +4,7 @@ Prepare lesson
 강의 실습의 진행은 Linux와 Windows OS를 중심으로 이루어 집니다. 따라서 다음과 같은 환경을 세팅해 주시기 바랍니다.
 
 * Linux 설치 ([Kali(권장)](https://www.kali.org/) 혹은 [Ubuntu](https://www.ubuntu.com/))  
-Host OS에 설치해도 되나 대부분의 교육생이 Windows를 사용하는 관계로 virtual(vmware or virtualbox) 환경에서 Guest OS로 Linux를 설치해 주시기 바랍니다(Memory는 4GB 이상 확보할 것 / CPU는 Host OS 갯수만큼 할당). Memory가 제한된 경우에는 USB로 multi booting할 수 있도록 준비해 놓으시기 바랍니다.
+Host OS에 설치해도 되나 대부분의 교육생이 Windows, macOS를 사용하는 관계로 virtual(vmware or virtualbox) 환경에서 Guest OS로 Linux를 설치해 주시기 바랍니다(Memory는 4GB 이상 확보할 것 / CPU는 Host OS 갯수만큼 할당). Memory가 제한된 경우에는 USB로 multi booting할 수 있도록 준비해 놓으시기 바랍니다.
 https://github.com/snoopspy/cpu-test tool을 가지고 CPU의 할당에 제대로 되어 있나 확인을 해 봅니다.
 
 * Wireshark 설치 ([wireshark.org](https://www.wireshark.org/))  
