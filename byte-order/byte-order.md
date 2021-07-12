@@ -27,7 +27,7 @@ Byte order
 | nibble | byte의 절반의 의미로 4bit | 16가지 경우의 수를 가진다(0 ~ 15, 0x0 ~ 0xF) |
 | byte | memory addressing 단위로 전통적으로 8bit | 256가지의 경우의 수를 가진다(0 ~ 255, 0x00 ~ 0xFF) |
 
-* <b>hexideciaml 1자리 숫자로 nibble을 표현하고 2자리 숫자로 byte를 표현할 수 있다.</b>
+* <b>hexidecimal 1자리 숫자로 nibble을 표현하고 2자리 숫자로 byte를 표현할 수 있다.</b>
 
 ## Practice
 * http://gilgil.net:4660 에 접속하는 과정을 Wireshark에서 패킷을 잡으면 TCP Header에서 4660이라는 숫자가 보인다. 이는 Packet Bytes Window에서 보면 0x1234로 잡힌다. 이를 network byte order(이하 NBO)라고 한다.
