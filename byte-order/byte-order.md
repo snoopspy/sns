@@ -1,6 +1,13 @@
 Byte order
 ===
 
+## 십진수(decimal), 이진수(binary), 그리고 16진수(hexadecimal)
+
+인간은 손가락이 10개이기 때문에 기본적으로 십진수를 사용한다. 컴퓨터 science는 2진수를 기반으로 한다.
+
+참고 : [https://en.wikipedia.org/wiki/Arecibo_message](https://en.wikipedia.org/wiki/Arecibo_message)
+
+
 ## 10진수 / 16진수 / 2진수 정리
 | decimal | hexadecimal | binary |
 |---|---|---|
