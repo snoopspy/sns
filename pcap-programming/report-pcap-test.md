@@ -4,7 +4,7 @@
 1. Ethernet Header의 src mac / dst mac
 2. IP Header의 src ip / dst ip
 3. TCP Header의 src port / dst port
-4. Payload(Data)의 hexadecimal value(최대 16바이트까지만)
+4. Payload(Data)의 hexadecimal value(최대 8바이트까지만)
 
 ### 실행
 ```
@@ -30,7 +30,7 @@ sample: pcap-test wlan0
 
     * struct libnet_tcp_hdr (1519 line)
 
-* pcap_loop, pcap_compile, pcap_setfilter와 같은 API는 사용하지 않는다.
+* pcap_findalldevs, pcap_compile, pcap_setfilter, pcap_lookupdev, pcap_loop API는 사용하지 않는다(인터넷에 돌아다니는 코드에 포함되어 있는 함수들이며, 본 함수들이 과제의 코드에 포함되는 경우 과제를 베낀 것으로 간주함). 
 
 * [Dummy interface를 이용하여 디버깅을 쉽게할 수 있는 방법](https://gilgil.gitlab.io/2020/07/23/1.html)을 알면 과제 수행에 도움이 된다.
 
