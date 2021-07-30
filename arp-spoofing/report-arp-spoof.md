@@ -22,6 +22,10 @@ sample : arp-spoof wlan0 192.168.10.2 192.168.10.1 192.168.10.1 192.168.10.2
 
 * 가능하다면 주기적으로 ARP infect packet을 송신하는 기능도 구현해 볼 것.
 
+* Attacker, Sender, Target은 물리적으로 다른 머신이어야 함. 가상환경에서 Guest OS가 Attacker, Host OS가 Sender가 되거나 하면 안됨.
+
+* Vmware에서 Guest OS를 Attacker로 사용할 때 Sender로부터의 Spoofed IP Packet이 보이지 않을 경우 [vmware_adapter_setting](vmware_adapter_setting) 문서를 참고할 것. Host OS의 네트워크를 사용하지 않고 별도의 USB 기반 네트워크 어댑터를 Guest OS에서 사용하는 것을 추천.
+
 
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
