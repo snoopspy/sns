@@ -26,7 +26,7 @@ sample : arp-spoof wlan0 192.168.10.2 192.168.10.1 192.168.10.1 192.168.10.2
 
 * Vmware에서 Guest OS를 Attacker로 사용할 때 Sender로부터의 Spoofed IP Packet이 보이지 않을 경우 [vmware_adapter_setting](vmware_adapter_setting.pdf) 문서를 참고할 것.
 
-* Host OS의 네트워크를 사용하지 않고 별도의 USB 기반 네트워크 어댑터를 Guest OS에서 사용하는 것을 추천. 다이소에서 5000원으로 구마핼 수 있음 - [https://www.youtube.com/watch?v=f8baVYPM9Pc](https://www.youtube.com/watch?v=f8baVYPM9Pc).
+* Host OS의 네트워크를 사용하지 않고 별도의 USB 기반 네트워크 어댑터를 Guest OS에서 사용하는 것을 추천. 다이소에서 5000원으로 구매할 수 있음. - [https://www.youtube.com/watch?v=f8baVYPM9Pc](https://www.youtube.com/watch?v=f8baVYPM9Pc)
 
 
 ### 기타
