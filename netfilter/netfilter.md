@@ -82,7 +82,7 @@ static u_int32_t print_pkt (struct nfq_data *tb)
 
 	ret = nfq_get_payload(tb, &data);
 	if (ret >= 0)
-		printf("payload_len=%d ", ret);
+		printf("payload_len=%d\n", ret);
 
 	fputc('\n', stdout);
 
