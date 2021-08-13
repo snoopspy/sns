@@ -8,7 +8,7 @@ sample : 1m-block top-1m.txt
 ```
 
 ### 상세
-* 이전 과제(netfilter)을 수행하고 나서 본 과제를 수행하도록 한다.
+* 이전 과제(netfilter-test)를 수행하고 나서 본 과제를 수행하도록 한다.
 
 * zip 파일내의 1백만 개 사이트들을 유해사이트라고 간주하고 HTTP Reqeust에서 "Host: " 뒤의 Host 값을 알아 내서 백만 개 리스트 안에 존재하는지 판별하는 로직을 구현한다.
 
