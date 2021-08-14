@@ -110,14 +110,13 @@ sudo iptables -F
 sudo iptables -A INPUT -p icmp -j DROP
 ```
 
-TCP port 80을 제외한 나머지 TCP 트래픽을 차단하는 룰을 테스트해 본다.
+TCP port 80을 제외한 나머지 TCP 트래픽을 차단하는 룰을 테스트해 본다. 다음에서 어떻게 고치면 되는지 고민해 본다.
 ```
 sudo iptables -F
-sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
-sudo iptables -A INPUT -p tcp --sport 80 -j ACCEPT
 sudo iptables -A OUTPUT -p tcp -j DROP
 sudo iptables -A INPUT -p tcp -j DROP
-
+sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -p tcp --sport 80 -j ACCEPT
 ```
 
 iptables의 사용법은 [구글링](https://www.google.com/search?q=iptables+%EC%98%88%EC%A0%9C)을 통해 익히도록 한다.
