@@ -119,7 +119,11 @@ sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
 sudo iptables -A INPUT -p tcp --sport 80 -j ACCEPT
 ```
 
+## iptables vs pcap
+
 iptables의 사용법은 [구글링](https://www.google.com/search?q=iptables+%EC%98%88%EC%A0%9C)을 통해 익히도록 한다.
+
+[](iptables-pcap.jpg)
 
 ## Youtube
 https://youtu.be/8CEXieYDbyM
