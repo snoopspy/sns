@@ -64,4 +64,4 @@ sudo ethtool -K eth0 rx off tx off
 ```
 
 ## Youtube
-https://youtu.be/5EOKiAN749w (deprecated)
+https://youtu.be/5EOKiAN749w
