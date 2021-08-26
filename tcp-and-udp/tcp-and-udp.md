@@ -78,6 +78,8 @@ sudo iptables -A INPUT -p tcp --dport 1234 -j DROP
 sudo iptables -D INPUT -p tcp --dport 1234 -j DROP
 ```
 
+* 이 경우 retransmission의 주기가 얼마인지 확인하고(connection이 맺어질 때와는 retransmission 주기가 달라짐), 실제 Data의 중복 전송이 발생하는 것을 확인한다.
+
 * UDP와는 다르게 15바이트(aaaaabbbbbccccc)가 Application 레벨에서 모두 전송이 됨을 확인하고, data retransmission 패턴 및 송수신되는 packet의 SEQ number값을 확인한다.
 
 
