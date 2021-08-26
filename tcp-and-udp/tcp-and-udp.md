@@ -34,7 +34,7 @@ TCP and UDP
 * 통신 과정에서 packet의 갯수를 확인한다.
 
 * 송수신되는 packet의 SEQ number 및 ACK number 값을 확인한다.  
-[tcp-seq-ack-test-blank.drawio](tcp-seq-ack-test-blank.drawio) / [tcp-seq-ack-test.drawio](tcp-seq-ack-test.drawio).
+[tcp-seq-ack-test-blank.drawio](tcp-seq-ack-test-blank.drawio) / [tcp-seq-ack-test.drawio](tcp-seq-ack-test.drawio) / [lte-hacking.drawio](lte-hacking.drawio).
 
 ## UDP 통신 차단 테스트
 * udp 통신을 차단한다(서버측).
