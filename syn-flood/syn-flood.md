@@ -45,3 +45,6 @@ $ hping3 127.0.0.1 -p 1234 -S -i u100000
 ```
 $ sudo sysctl -w net.ipv4.tcp_syncookies=1
 ```
+
+## Youtube
+https://youtu.be/08ft80U4xac
