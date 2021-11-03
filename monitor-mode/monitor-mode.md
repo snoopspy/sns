@@ -46,7 +46,7 @@ ifconfig <new interface> up
 ## Network Manager의 처리
 * Linux에서는 Network Manager라는 프로세스가 있고 이 프로세스는 설치되어 있는 모든 network device를 manage하게 된다. 이 경우 Network Manager가 monitor mode로 전환된 interface를 access하여 오동작을 일으켜 패킷을 잡는 도중에 오류가 날 수 있다. 이를 위해서 monitor mode로 사용되어 지는 interface를 Network Manager로 하여금 unmanage하도록 해야 한다. 2가지 방법이 있다.
 
-  1. "/etc/NetworkManager/NetworkManager.conf" 파일 마지막에 다음과 같은 항목을 추가하여 Network-Manager로 하여금 특정 interface(이름이나 mac으로)에 대해서 manage를 하지 말도록 설정한다. 설정이 바뀐 이후에는 네트워크 서비스를 재시작( "systemctl restart NetworkManager" )하거나 컴퓨터를 재부팅해야 한다.
+  1. "/etc/NetworkManager/NetworkManager.conf" 파일 마지막에 다음과 같은 항목을 추가하여 Network-Manager로 하여금 특정 interface(이름이나 mac으로)에 대해서 manage를 하지 말도록 설정한다. 설정이 바뀐 이후에는 네트워크 서비스를 재시작( "sudo systemctl restart NetworkManager" )하거나 컴퓨터를 재부팅해야 한다.
   ```
   [keyfile]
   unmanaged-devices=interface-name:mon*;interface-name:wlan*mon;mac:00:11:22:33:44:55
