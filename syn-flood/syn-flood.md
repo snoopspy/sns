@@ -39,6 +39,11 @@ $ netstat -apn | grep :1234
 
 이후 hping3 명령어를 통하여 SYN flooding attack을 하게 되면 하나의 패킷에 의해 서버에서 SYN RECEIVED 상태의 소켓이 계속 증가하는 것을 볼 수 있다. SYN RECEIVED 상태의 소켓이 계속 증가하다거 더 이상 외부로부터의 연결 요청을 받을 수 없게 된다(SYN packet에 대해 SYN+ACK packet으로 반응할 수 없다). 이 소켓의 갯수는 listen 함수의 인자 값으로 결정이 된다. listen 함수의 인자값을 변경하면서 테스트를 다시 해 본다.
 
+SYN packet을 좀 더 주기적으로 보내게 한다. 몇 초가 지나면 서버는 더 이상 외부로부터의 접속을 어려워지게 된다.
+```
+$ hping3 127.0.0.1 -p 1234 -S -i u100000
+```
+
 요즘 나오는 대부분의 OS는 이러한 SYN flooding attack에 대해 방어할 수 있는 메커니즘이 구현되어 있다. 다음 명령어를 통해서 syncookies 값을 다시 on시켜서 SYN flooding attack에 대해 방어할 수 있도록 한다.
 ```
 $ sudo sysctl -w net.ipv4.tcp_syncookies=1
