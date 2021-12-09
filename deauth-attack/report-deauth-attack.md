@@ -4,7 +4,7 @@ Deauth Attack 프로그램을 작성하라.
 ### 실행
 ```
 syntax : deauth-attack <interface> <ap mac> [<station mac>]
-sample : deauth-attack 00:11:22:33:44:55 66:77:88:99:AA:BB
+sample : deauth-attack mon0 00:11:22:33:44:55 66:77:88:99:AA:BB
 ```
 
 ### 상세
