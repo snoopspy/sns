@@ -8,11 +8,11 @@ sample : signal-strength mon0 00:11:22:33:44:55
 ```
 
 ### 상세
-* 802.11 frame은 대부분 addr1, addr, addr3 정보가 들어가 있다. 이 중에 어떠한 addr 정보가 ta(transmitter address)인지는 해당 frame의 type/subtype에 따라 다르다.
+* [https://www.radiotap.org](https://www.radiotap.org) 사이트의 defined fields, suggest fields, rejected fields 등을 숙지한다.
 
-* 각각의 type/subtype에 따라 ta 정보를 추출하고 radiotap header에서 signal strength를 알아내어 그 크기를 숫자로 출력하도록 한다.
+* 802.11 frame은 대부분 addr1, addr, addr3 정보가 들어가 있다. 여기에서 ta 정보를 추출하고 radiotap header에서 signal strength를 알아내어 그 크기를 숫자로 출력하도록 한다.
 
-* 우선은 Beacon frame만을 이용하여 AP의 신호 세기 출력을 먼저 해보고, 이후에 type/subtype마다 ta 정보 추출 방법을 파악한 다음 AP 뿐만 아니라 Station의 정보도 출력할 수 있도록 한다.
+* [https://gitlab.com/gilgil/g/tree/master/bin/pcap/dot11](https://gitlab.com/gilgil/g/tree/master/bin/pcap/dot11) URL 에 샘플 802.11 pcap file이 있으니 이를 이용하여 디버깅(출력하는 정보가 제대로 맞는지를 Wireshark에서 보여주는 결과와 비교하면서 확인)을 한다.
 
 * 가능하다면 Chart와 같은 컴포넌트를 이용하여 GUI 형식으로도 보여줄 수 있도록 한다( [https://doc.qt.io/qt-5/qtcharts-linechart-example.html](https://doc.qt.io/qt-5/qtcharts-linechart-example.html) ).
 
