@@ -29,8 +29,8 @@ sequenceDiagram
 
 Deauth Attack은 aireplay-ng 명령어를 통해서 실습할 수 있다.
 ```
-syntax : sudo aireplay-ng <interface> --deauth <count> --bssid <bssid>
-example : sudo aireplay-ng mon0 --deauth 10 --bssid 11:22:33:44:55:66
+syntax : sudo aireplay-ng <interface> --deauth <count> -a <bssid>
+example : sudo aireplay-ng mon0 --deauth 10 -a 11:22:33:44:55:66
 ```
 
 <br><br>
