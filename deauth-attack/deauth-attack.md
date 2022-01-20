@@ -30,7 +30,7 @@ sequenceDiagram
 Deauth Attack은 aireplay-ng 명령어를 통해서 실습할 수 있다.
 ```
 syntax : sudo aireplay-ng <interface> --deauth <seconds> -a <bssid> [-c <station mac>]
-example : sudo aireplay-ng mon0 --deauth 20 -a 11:22:33:44:55:66 [-c 77:88:99:aa:bb:cc]
+example : sudo aireplay-ng mon0 --deauth 20 -a 00:11:22:33:44:55 [-c 66:77:88:99:aa:bb]
 ```
 
 <br><br>
