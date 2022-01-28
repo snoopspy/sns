@@ -1,7 +1,7 @@
 ## WiFi Scan의 종류
 Station이 AP에 접속하기 위해서는 scan을 해야 한다. scan에는 2가지 종류가 있다.
 
-1. Passive scan : AP는 주기적으로(10240 microseconds) 자신이 있음을 알리는 Beacon frame을 broadcast한다. 처음 가 보는 곳에 장소라 하더라도 WiFi list에서 해당 AP의 정보를 알 수 있는 것이 바로 Beacon frame 때문이다.
+1. Passive scan : AP는 주기적으로(102400 microseconds) 자신이 있음을 알리는 Beacon frame을 broadcast한다. 처음 가 보는 곳에 장소라 하더라도 WiFi list에서 해당 AP의 정보를 알 수 있는 것이 바로 Beacon frame 때문이다.
 
 2. Active scan : Station은 "이러한 SSID를 가진 AP가 있나요?"라고 질의를 하게 되고(Probe Request), 해당 SSID를 가지고 있는 AP는 응답(Probe Response)을 해야 한다. Probe Response를 받은 Station은 해당 AP에 접속을 시도하게 된다.
 
