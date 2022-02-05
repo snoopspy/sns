@@ -10,7 +10,7 @@ sample : wifi-jammer mon0
 ### 상세
 * "wireless-tools"로 검색을 하여 [wireless_tools.29.tar.gz](https://hewlettpackard.github.io/wireless-tools/wireless_tools.29.tar.gz) 파일을 다운받는다.
 
-* 압축을 풀고 iwlib.h 및 iwlib.c 파일을 이용하여 channel list와 channel hopping하는 로직을 구해 온다
+* 압축을 풀고 iwlib.h 및 iwlib.c 파일을 이용하여 channel list와 channel hopping하는 로직을 구해 온다. [makefile option](https://gitlab.com/gilgil/makefile)을 이용하여 빌드 옵션을 변경할 수 있다.
    ```
   socket 생성 및 종료 : iw_sockets_open, iw_sockets_close
   channel list 알아 오기 : iw_get_range_info
