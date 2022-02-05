@@ -10,7 +10,15 @@ sample : wifi-jammer mon0
 ### 상세
 * "wireless-tools"로 검색을 하여 [wireless_tools.29.tar.gz](https://hewlettpackard.github.io/wireless-tools/wireless_tools.29.tar.gz) 파일을 다운받는다.
 
-* 압축을 풀고 iwlib.h 및 iwlib.c 파일을 이용하여 channel list와 channel hopping하는 로직을 구해 온다.
+* 압축을 풀고 iwlib.h 및 iwlib.c 파일을 이용하여 channel list와 channel hopping하는 로직을 구해 온다
+   ```
+  socket 생성 및 종료 : iw_sockets_open, iw_sockets_close
+  channel list 알아 오기 : iw_get_range_info
+  current channel 정보 : iw_get_ext
+  channel 세팅 : iw_set_ext
+  freq와 channel 변환 : iw_freq2float, iw_freq_to_channel, iw_float2freq
+  ```
+
 
 * 프로그램이 시작되면 channel list를 구해 와서(iwlist 명령어를 이용해도 되고 iwlib 모듈을 이용해도 되고) 일정한 주기(120 msec, 250 msec, 1 sec)로 channel hopping을 한다(iwconfig 명령어를 이용해도 되고 iwlib 모듈을 이용해도 되고).
 
