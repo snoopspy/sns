@@ -19,7 +19,7 @@ git checkout <latest tag>
 mkdir build
 cd build
 cmake ..
-make -j4
+make -j$(NPROC)
 sudo make install
 sudo cp /usr/local/lib/libtins* /usr/lib
 ```
