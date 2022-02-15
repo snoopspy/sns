@@ -9,7 +9,7 @@
 
 * 해당 pcap file[(gilgil-ap-beacon-eapol1234.pcap)](gilgil-ap-beacon-eapol1234.pcap)에는 AP가 전송하는 beacon frame 하나와 Station이 AP에 접속할 때 발생한 eapol 패킷이 들어가 있다.
 
-* wordlist를 스스로 [만들어](create-dictionary.cpp) wordlist.txt 파일을 생성한다.
+* wordlist를 스스로 [만들어](create-dictionary.c) wordlist.txt 파일을 생성한다.
 
 * 다음과 같은 명령어로 공유기의 비밀번호를 알아낼 수 있다. wordlist가 1백만 개정도일 때 대략 어느 정도 시간이 소요되는지를 파악하도록 한다.
 
