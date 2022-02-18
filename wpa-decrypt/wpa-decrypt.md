@@ -17,6 +17,7 @@ Wireshark - Edit - Preferences - Protocols - IEEE 802.11 wireless LAN - Decrypti
 
 ## References
 https://wiki.wireshark.org/HowToDecrypt802.11
+https://github.com/mfontanini/dot11decrypt
 
 ## Youtube
 https://youtu.be/KRDKBxrNBzI
