@@ -15,6 +15,8 @@ SSID는 Beacon frame에 존재하며 AP Mac, STA Mac, ANonce, SNonce는 EAPOL fr
 
 Wireshark - Edit - Preferences - Protocols - IEEE 802.11 wireless LAN - Decryption keys Edit를 클릭해서 Key type은 wpa-pwd, Key는 \<password\>:\<ssid\> 의 형식으로 추가한다. 이후 aircrack과 마찬가지로 Deauth frame을 전송하여 EAPOL frame을 획득하고, 그 이후 발생하는 Encrypted Data frame에 대해서 decrypt를 할 수 있다. 
 
+## References
+https://wiki.wireshark.org/HowToDecrypt802.11
 
 ## Youtube
 https://youtu.be/KRDKBxrNBzI
