@@ -148,6 +148,9 @@ github.com 뿐만 아니라 git 서비스를 제공해 주는 다양한 사이�
 
 "git clone" 명령으로 git repository를 가져올 수도 있지만 "git init" 명령어로 git repository를 생성할 수도 있습니다.
 
+github 사이트는 ID/PW 기반의 Authentication을 금지하고 Token Authentication이라는 것을 도입하였습니다. github에 push를 하기 위해서는 구글에서 "github personal access token 을 이용한 로그인 방법"으로 검색을 햇서 세팅을 완료하도록 합니다.
+
+
 ```
 $ mkdir sum-test
 $ cd sum-test
