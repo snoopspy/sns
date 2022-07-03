@@ -154,6 +154,7 @@ $ cd sum-test
 $ git init
 ```
 
+## Github Token Authentication
 github 사이트는 ID/PW 기반의 Authentication을 금지하고 Token Authentication이라는 것을 도입하였습니다. github에 push를 하기 위해서는 구글에서 "github personal access token 을 이용한 로그인 방법"으로 검색을 햇서 세팅을 완료하도록 합니다.
 
 ## References
