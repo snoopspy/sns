@@ -3,7 +3,7 @@ Pcap programming
 
 Wireshark에서 잡힌 packet을 이제 programming을 통해서 실습해 보도록 한다.
 
-pcap_t라는 핸들을 이용하여 packet을 수집(capture) 및 전송(send)를 raw level로 할 수 있다. 일부 OS에 따라서 관리자(root) 권한이 필요하기도 하니, 실행할 때에는 가급적 root 계정으로 실행한다.
+pcap_t라는 핸들을 이용하여 packet을 수집(capture) 및 전송(send)를 raw level로 할 수 있다. 대부분 OS에 따라서 관리자(root) 권한을 요구한다.
 
 |Description| Functions|
 |---|---|
