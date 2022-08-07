@@ -22,6 +22,8 @@ sample : arp-spoof wlan0 192.168.10.2 192.168.10.1 192.168.10.1 192.168.10.2
 
 * 가능하다면 주기적으로 ARP infect packet을 송신하는 기능도 구현해 볼 것.
 
+* 가능하다면 jumbo frame(패킷의 크기가 큰 패킷)에 대해 relay를 할 수 있도록 해 볼 것.
+
 * attacker, sender, target은 물리적으로 다른 머신이어야 함. 가상환경에서 Guest OS가 attacker, Host OS가 sender가 되거나 하면 안됨.
 
 * Vmware에서 Guest OS를 attacker로 사용할 때 sender로부터의 spoofed IP packet이 보이지 않을 경우 [vmware_adapter_setting](vmware_adapter_setting.pdf) 문서를 참고할 것.
