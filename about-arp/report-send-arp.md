@@ -12,6 +12,8 @@ sample : send-arp wlan0 192.168.10.2 192.168.10.1
 
 * Target은 일반적으로 gateway임.
 
+* Sender와 Target은 하나만 있는 게 아니라 여러개의 (Sender, Target) 조합을 처리할 수 있도록 한다.
+
 * 구글링을 통해서 ARP header의 구조(각 필드의 의미)를 익힌다.
 
 * pcap_sendpacket 함수를 이용해서 User defined buffer를 packet으로 전송하는 방법을 익힌다.
