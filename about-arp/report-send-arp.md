@@ -18,7 +18,7 @@ sample : send-arp wlan0 192.168.10.2 192.168.10.1
 
 * pcap_sendpacket 함수를 이용해서 User defined buffer를 packet으로 전송하는 방법을 익힌다.
 
-* Attacker(자신) Mac 주소 값를 알아 내는 방법은 구글링을 통해서 코드를 베껴 와도 된다.
+* Attacker(자신) Mac 주소 값를 알아 내는 방법은 구글링을 통해서 코드를 베껴 와도 된다(interface 이름을 입력값으로해서 Mac을 알아낸다).
 
 * ARP infection packet 구성에 필요한 Sender의 Mac 주소 정보는 프로그램 레벨에서 자동으로(정상적인 ARP request를 날리고 그 ARP reply를 받아서) 알아 오도록 코딩한다.
 
