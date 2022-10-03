@@ -49,4 +49,4 @@ System Network Security
 * [gmem](/gmem/gmem)
 
 ## Qt
-* [Setup Qt Android Development](/setup-qt-android-develop/setup-qt-android-develop) [(vending-machine)](/setup-qt-android-develop/report-vending-machine)
+* [Setup Qt Android Development](/setup-qt-android-develop/setup-qt-android-develop)
