@@ -59,5 +59,5 @@ $ sudo apt install libglu1-mesa-dev
 
 ## Youtube
 
-https://youtu.be/v4w4Q0HtdOE\
+https://youtu.be/v4w4Q0HtdOE  
 https://youtu.be/OLmpmMCzPdY
