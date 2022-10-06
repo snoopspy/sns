@@ -37,7 +37,7 @@ $ ./qt-opensource-linux-x64-5.12.7.run
 
 ## Sample(hello_world)
 
-console application 실행이 안될 때 다음과 같은 명령어로 gnome-terminal을 설치해 주고, QtCreator > Tools > Options > Environment > System > Terminal에서 "/usr/bin/xterm" 대신 "/usr/bin/gnome-terminal"을 입력해 준다(오른쪽 2번째 빈칸에 "--"가 자동으로 들어간다).
+Terminal에서 프로그램 디버깅이나 실행이 안될 때 다음과 같은 명령어로 gnome-terminal을 설치해 주고, QtCreator > Tools > Options > Environment > System > Terminal에서 "/usr/bin/xterm" 대신 "/usr/bin/gnome-terminal"을 입력해 준다(오른쪽 2번째 빈칸에 "--"가 자동으로 들어간다).
 
 ```
 $ sudo apt install gnome-terminal
