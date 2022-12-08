@@ -33,8 +33,8 @@ sudo cp /usr/local/lib/libtins* /usr/lib
 * ssid-list.txt 에 포함된 SSID는 일단 영어로 작성하고 다음에 한글로 테스트해 본다. 그리고 SSID 갯수를 하나만 설정하여 제대로 작동하는지 확인하고, 확인이 된 이후에는 10개까지 넣어서 작동하는지 확인한다.
 
 * 기타 다양한 beacon flooding code를 참조한다.  
-  https://kalilinuxtutorials.com/mdk3/
-  https://gitlab.com/gilgil/g/-/blob/master/src/net/process/gbeaconflood.cpp
+  https://kalilinuxtutorials.com/mdk3/  
+  https://gitlab.com/gilgil/g/-/blob/master/src/net/process/gbeaconflood.cpp  
 
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
