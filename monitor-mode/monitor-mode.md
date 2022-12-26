@@ -9,7 +9,7 @@ https://en.wikipedia.org/wiki/Monitor_mode
 * 해외 제품의 경우 배송에서부터 대략 3주 정도 소요되며, 같은 제품을 2개 이상 구매하는 경우 전파법에 위배되어 세관에 걸릴 수 있다.
 * [TL-WN722N](https://www.google.com/search?q=TL-WN722N) 제품은 최신 제품이 monitor mode를 지원하지 않는다.
 * ~~국내 제품의 경우~~ [~~iptime N150UA Solo~~](https://www.google.com/search?q=iptime+N150UA+Solo) ~~제품이 있는데, 2.4GHz 대역만 지원하며 패킷이 많이 잡히지 않는다는 단점이 있으나, 가격이 저렴하며 실습용으로는 무난하다. 그런데, 2020년 하반기부터 해당 제품 생산이 중단됨. ㅠㅠ~~
-* 2022년 12월 현재 [iptime N150UA2](https://www.google.com/search?q=iptime+N150UA2) 제품이 발매가 되고 있으며 구매해서 테스트한 결과 802.11 packet sniffing 및 packet injection이 제대로 작동하는 것 확인하였다. 다만 2.4GHz 대역만 지원됨.
+* 2022년 12월 현재 [ipTIME N150UA2](https://www.google.com/search?q=ipTIME+N150UA2) 제품이 발매가 되고 있으며 구매해서 테스트한 결과 802.11 packet sniffing 및 packet injection이 제대로 작동하는 것 확인하였다. 다만 2.4GHz 대역만 지원됨.
 * 국내 제품의 경우 [ipTIME A2000UA-4dBi](https://www.google.com/search?q=ipTIME+A2000UA-4dBi) 제품은 5GHz까지 지원한다(외산에 비해서는 저렴하지만 가격이 흠좀무). [Install ipTIME A2000UA-4dBi driver in linux](https://gilgil.gitlab.io/2020/11/27/1.html) manual을 이용해서 linux에 설치가 가능하다.
 
 ## linux 설치
