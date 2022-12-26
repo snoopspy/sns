@@ -19,7 +19,7 @@ https://en.wikipedia.org/wiki/Monitor_mode
 
 ## 가상환경에서 linux 운영
 
-* 우선 Host(예 : windows라) 해당 USB 디바이스가 네트워크 디바이스로 설치 및 인식이 제대로 되는지 확인한다. 설치가 제대로 되지 않는 경우 정당한 드라이버를 검색해서 설치한다.
+* 우선 Host(예 : windows라) 해당 USB 디바이스가 네트워크 디바이스로 설치 및 인식이 제대로 되는지 확인한다. 설치가 제대로 되지 않는 경우 적당한 드라이버를 검색해서 설치한다.
 * 가상 환경(vmware, virtualbox)에서 "Disconnect from Host"와 같은 명령어를 통해서 Image로 해당 USB 디바이스를 넣어 준다.
 * 'ifconfig -a"와 같은 명령어를 통해서 해당 디바이드가 Image에서 인식이 되는지 확인한다.
 * 가상 환경 - Settings - USB 옵션에서 USB 3.0으로 설정을 해 줘야 monitor mode packet이 많이 잡힌다. virtualbox의 경우 extension pack을 설치해 줘야 USB 3.0 옵션 설정이 가능하다.
