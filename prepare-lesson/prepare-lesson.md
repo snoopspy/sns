@@ -55,8 +55,7 @@ git 서비스를 하는 곳 중에 가장 유명한 사이트들이니 회원 �
 * git 설치  
 Linux는 "sudo apt install git", Windows는 [git-scm.com](https://git-scm.com/) 사이트에서 다운받아 설치할 수 있습니다.
 
-
-
-
 ## Youtube
-https://youtu.be/pb9cPU_vt5Y
+Prepare lesson : https://youtu.be/pb9cPU_vt5Y  
+Install QtCreator using online installer : https://youtu.be/OLmpmMCzPdY  
+
