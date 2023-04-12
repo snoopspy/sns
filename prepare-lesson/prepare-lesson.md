@@ -5,7 +5,7 @@ Prepare lesson
 
 * Linux 설치 ([Kali(권장)](https://www.kali.org/) 혹은 [Ubuntu](https://www.ubuntu.com/))  
 Host OS에 설치해도 되나 대부분의 교육생이 Windows, macOS를 사용하는 관계로 virtual(vmware or virtualbox) 환경에서 Guest OS로 Linux를 설치해 주시기 바랍니다(Memory는 4GB 이상 확보할 것 / CPU는 Host OS 갯수만큼 할당). Memory가 제한된 경우에는 USB로 multi booting할 수 있도록 준비해 놓으시기 바랍니다.
-https://github.com/snoopspy/cpu-test tool을 가지고 CPU의 할당에 제대로 되어 있나 확인을 해 봅니다.
+https://github.com/snoopspy/cpu-test tool을 가지고 CPU의 할당이 제대로 되어 있나 확인을 해 봅니다.
 
 * Wireshark 설치 ([wireshark.org](https://www.wireshark.org/))  
 "sudo apt install wireshark" 명령어로 설치할 수 있습니다. Windows에서는 wireshark.org 사이트에 가서 설치하시면 됩니다(WinPcaP과 npcap이 중복되어 설치되지 않도록 할 것 - [WinPcap과 Npcap 설치 문제 해결](https://gilgil.gitlab.io/2019/07/25/1.html)). 네트워크 패킷을 잡는 일이 많으니까 Host OS 및 Guest OS 두군데 다 설치해 놓으시기 바랍니다.
