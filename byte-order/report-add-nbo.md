@@ -4,7 +4,7 @@
 ### 실행
 ```
 syntax : add-nbo <file1> <file2>
-sample : add-nbo a.bin c.bin
+sample : add-nbo a.bin b.bin
 
 # example
 $ echo -n -e \\x00\\x00\\x03\\xe8 > thousand.bin
