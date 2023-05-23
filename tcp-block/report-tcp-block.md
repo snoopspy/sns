@@ -14,7 +14,7 @@ sample : tcp-block wlan0 "Host: test.gilgil.net"
 
 * 정방향(forward)은 RST flag를 포함한 패킷을 송신한다(자신의 머신에 wget이나 웹브라우저를 이용해서 테스트).
 
-* 역방향(backward)는 FIN flag 및 "HTTP/1.0 302 Redirect\r\nLocation: http://warning.or.kr\r\n"의 TCP Data를 포함한 패킷을 송신한다(자신의 머신에 tcp server(ts)를 띄워 놓고 같은 네트워크 대역의 다른 호스트(스마트폰)에서 자신의 머신으로 HTTP 연결을 시도해서 테스트).
+* 역방향(backward)는 FIN flag 및 "HTTP/1.0 302 Redirect\r\nLocation: http://warning.or.kr\r\n\r\n"의 TCP Data를 포함한 패킷을 송신한다. 자신에게 전송하는 역방향 패킷은 pcap을 이용하는 경우 Linux에서 작동하지 않을 수 있으므로 [raw socket](https://www.google.com/search?q=raw+socket+example&oq=raw+socket+example)를 이용하여 전송하도록 한다.
 
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
