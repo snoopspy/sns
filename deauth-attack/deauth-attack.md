@@ -34,7 +34,7 @@ example : sudo aireplay-ng mon0 --deauth 20 -a 00:11:22:33:44:55 [-c 66:77:88:99
 ```
 
 <br><br>
-특정 Station에 AP에 연결이 되어 있는 상태에서 해당 Station과 똑같은 Mac address값을 가지고 동일한 AP에 연결을 시도하면(Attacker는 Authentication 1 및 Association Request 패킷을 전송) 기존 Station의 연결이 끊기게 된다. 이를 Authenticaton Attack(줄여서 Auth Attack)이라 한다. WPA3 표준에서는 이러한 Deauth Attack, Auth Attack은 방어하는 기능이 탑재되어 있다.
+특정 Station에 AP에 연결이 되어 있는 상태에서 해당 Station과 똑같은 Mac address값을 가지고 동일한 AP에 연결을 시도하면(Attacker는 Authentication 1 및 Association Request 패킷을 전송) 기존 Station의 연결이 끊기게 된다. 이를 Authenticaton Attack(줄여서 Auth Attack)이라 한다. WPA3 표준에서는 이러한 Deauth Attack, Auth Attack을 방어하는 기능이 탑재되어 있다.
 
 ## Youtube
 https://youtu.be/2bwT-GSt-9A
