@@ -46,6 +46,22 @@ git 환경 설정은 다음과 같은 명령어로 확인할 수 있습니다.
 $ git config --global --list
 ```
 
+## SSH Key 
+리눅스에서 다음과 같은 명령어로 SSH key를 생성합니다.  
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+혹은
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+~/.ssh directory에 private key 및 public key가 생성되었는지 확인합니다.  
+
+```
+ls -l ~/.ssh
+```
+
+public key를 "cat" 명령어로 확인한 이후 [github](https://github.com/settings/keys) 혹은 [gitlab](https://gitlab.com/-/profile/keys) 설정 화면에서 Key를 등록해 줍니다.  
 
 ## github.com 계정 생성 및 repository 생성
 
@@ -141,7 +157,7 @@ make라는 명령어를 통하여 실행이 제대로 되는지 확인해 보고
 
 다음과 같은 명령어로 remote repository에 push한 이후 제대로 push가 되었는지 확인합니다.
 ```
-$ git push origin master
+$ git push origin main
 ```
 
 github.com 뿐만 아니라 git 서비스를 제공해 주는 다양한 사이트들이 있으며, 자체적인 git server를 구축할 수도 있습니다.
