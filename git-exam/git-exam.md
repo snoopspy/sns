@@ -47,7 +47,8 @@ $ git config --global --list
 ```
 
 ## SSH Key 
-리눅스에서 다음과 같은 명령어로 SSH key를 생성합니다.  
+
+github 및 gitlab 사이트는 ID/PW 기반의 Authentication을 금지하고 Token Authentication이라는 것을 도입하였습니다. 자신의 리눅스 OS에서 SSH key를 생성해서 Token Authentication 설정을 해줘야 합니다. 우선 다음과 같은 명령어로 SSH key를 생성합니다.  
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
