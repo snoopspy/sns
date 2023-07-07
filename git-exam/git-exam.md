@@ -74,7 +74,7 @@ github.com 사이트에 들어 가서 자신의 계정을 생성합니다.
 
 git clone 명령어를 이용하여 repository를 가져 옵니다.
 ```
-$ git clone https://github.com/snoopspy/sum-test.git
+$ git clone git@github.com:snoopspy/sum-test.git
 ```
 
 
@@ -101,10 +101,10 @@ int sum(int n);
 #include "sum.h"
 
 int sum(int n) {
-  int res = 0;
-  for (int i = 1; i <= n; ++i)
-    res += i;
-  return res;
+	int res = 0;
+	for (int i = 1; i <= n; ++i)
+		res += i;
+	return res;
 }
 ```
 
@@ -121,8 +121,8 @@ main.cpp 코드를 만들고 git add 및 commit을 합니다.
 #include "sum.h"
 
 int main() {
-  int s = sum(10);
-  printf("result=%d\n", s);
+	int s = sum(10);
+	printf("result=%d\n", s);
 }
 ```
 
