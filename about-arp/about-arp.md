@@ -11,7 +11,9 @@ ARP 프로토콜에 대해서 이해를 한다. 본 실습은 공공 와이파�
 
 * linux는 'ifconfig', windows는 'ipconfig /all' 명령어로 네트워크 정보를 알아낼 수 있다.
 
-* linux에서 gateway 정보는 'route -n' 명령어로로 알아낼 수 있다.
+* linux에서 gateway 정보는 'route -n', windows는 'route print' 명령어로 알아낼 수 있다.
+
+* linux에서 ARP table 정보는 'arp -an', windows는 'arp -a' 명렁어로 알아낼 수 있다.
 
 * android의 경우에는 'Network Info II'라는 앱을 설치하면 자신의 네트워크 정보를 알 수 있다. 필요에 따라 ICMP packet을 테스트할 수 있는 Ping 앱('Ping & Net')도 설치해 놓는다.
 
