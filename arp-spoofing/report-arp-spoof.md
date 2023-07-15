@@ -29,7 +29,7 @@ sample : arp-spoof wlan0 192.168.10.2 192.168.10.1 192.168.10.1 192.168.10.2
 
 * attacker, sender, target은 물리적으로 다른 머신이어야 함. 가상환경에서 Guest OS가 attacker, Host OS가 sender가 되거나 하면 안됨.
 
-* Vmware에서 Guest OS를 attacker로 사용할 때 sender로부터의 spoofed IP packet이 보이지 않을 경우 [vmware_adapter_setting](vmware_adapter_setting.pdf) 문서를 참고할 것.
+* Vmware에서 Guest OS를 attacker로 사용할 때 sender로부터의 spoofed IP packet이 보이지 않을 경우 [vmware_adapter_setting](vmware_adapter_setting.pdf) 문서를 참고할 것. Vmware Player에서는 안되고 Pro 버전에서 작동되는 것으로 알고 있음.
 
 * VirtualBox에서 Guest OS를 attacker로 사용할 때 sender로부터의 spoofeed IP packet이 보이지 않은 경우 https://gilgil.gitlab.io/2021/09/29/1.html 문서를 참고할 것.
 
