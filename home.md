@@ -37,7 +37,7 @@ System Network Security
 * [Monitor Mode](/monitor-mode/monitor-mode)
 * [Dot11 Frame](/dot11-frame/dot11-frame) [(airodump)](/dot11-frame/report-airodump) [(beacon-flood)](/dot11-frame/report-beacon-flood)
 * [Hidden SSID](/hidden-ssid//hidden-ssid)
-* [Deauth Attack](/deauth-attack/deauth-attack) [(deauth-attack)](/deauth-attack/report-deauth-attack) [(csa-attack)](/csa-attack/report-csa-attack) [(wifi-jammer)](/deauth-attack/report-wifi-jammer)
+* [Deauth Attack](/deauth-attack/deauth-attack) [(deauth-attack)](/deauth-attack/report-deauth-attack) [(csa-attack)](/deauth-attack/report-csa-attack) [(wifi-jammer)](/deauth-attack/report-wifi-jammer)
 * [Signal Strength](/signal-strength/signal-strength) [(signal-strength)](/signal-strength/report-signal-strength)
 * [Aircrack](/aircrack/aircrack)
 * [WPA Decrypt](/wpa-decrypt/wpa-decrypt)
