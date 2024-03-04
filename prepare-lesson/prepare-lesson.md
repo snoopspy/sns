@@ -45,8 +45,8 @@ C/C++ 개발 IDE로 QtCreator라는 것이 있는데, Linux에서 C/C++을 많�
 
   /usr/lib/x86_64-linux-gnu/qtchooser/default.conf 파일을 생성하여 다음과 같은 항목을 추가하여 command line에서도 qmake가 실행이 될 수 있도록 합니다(5.14.2 라고 되어 있는 숫자는 자신의 머신에 설치된 qt의 버전에 맞게 수정 요망).
   ```
-  /opt/Qt/5.14.2/gcc_64/bin
-  /opt/Qt/5.14.2/gcc_64/lib
+  /opt/Qt/6.5.3/gcc_64/bin
+  /opt/Qt/6.5.3/gcc_64/lib
   ```
 
 * [github.com](https://github.com/) 혹은 [gitlab.com](https://gitlab.com/) 사이트 회원 가입  
