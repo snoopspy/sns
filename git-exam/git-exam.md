@@ -137,8 +137,8 @@ Makfile을 만들고 git add 및 commit을 합니다.
 #Makefile
 all: sum-test
 
-sum-test: sum.o main.o
-	g++ -o sum-test sum.o main.o
+sum-test: main.o sum.o
+	g++ -o sum-test main.o sum.o
 
 main.o: sum.h main.cpp
 	g++ -c -o main.o main.cpp
