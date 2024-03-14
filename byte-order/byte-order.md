@@ -63,14 +63,14 @@ void dump(void* p, size_t n) {
 [byte-order-test.zip](byte-order-test.zip) 혹은 https://gitlab.com/gilgil/byte-order-test.git repository를 clone받아 실습을 진행한다.
 
 ## Byte order
-* NBO(network byte order) : 네트워크 레벨에서 숫자를 표현하는 순서
+* NBO(network byte order) : 네트워크 레벨에서 숫자를 표현하는 순서(정방향으로 약속이 됨)
 
-* HBO(host byte order) : 호스트에 레벨에서 숫자를 표현하는 순서
+* HBO(host byte order) : 호스트에 레벨에서 숫자를 표현하는 순서(정방향인지 역방향인지 호스트마다 다름)
 
 ## Endian
-* LE(little-endian) : HBO와 NBO가 다름
+* LE(little-endian) : HBO와 NBO가 다른 CPU
 
-* BE(big-endian) : HBO와 NBO가 같음
+* BE(big-endian) : HBO와 NBO가 같은 CPU
 
 ## Conclusion
 * Intel CPU의 경우는 대부분 LE 계열이고, ARM CPU의 경우에는 종류에 따라 BE, LE 계열로 구분되어 지기도 한다. 올바른 네트워크 프로그래밍을 하기 위해서는 LE 및 BE의 차이 및 NBO와 HBO간 변환를 시켜 주는 작동 원리를 이해하고 있어야 한다.
