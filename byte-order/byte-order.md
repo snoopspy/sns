@@ -60,7 +60,7 @@ void dump(void* p, size_t n) {
 	printf("\n");
 }
 ```
-[byte-order-test.zip](byte-order-test.zip)
+[byte-order-test.zip](byte-order-test.zip) 혹은 https://gitlab.com/gilgil/byte-order-test.git repository를 clone받아 실습을 진행한다.
 
 ## Byte order
 * NBO(network byte order) : 네트워크 레벨에서 숫자를 표현하는 순서
