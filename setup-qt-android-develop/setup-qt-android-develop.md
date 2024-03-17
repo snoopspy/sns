@@ -12,12 +12,11 @@ Qt에서 Android 앱을 개발하는 데 필요한 setup 과정을 설명한다.
 |NDK|r21(21.0.6113669)|
 
 ### 2024년 3월 현재  
-
 |Module|Version|
 |---|---|
 |OS|Kail 2024|
 |Qt|6.5.3|
-|JDK|openjdk-17-jdk (sudo apt install openjdk-17-jdk)|
+|JDK|openjdk-17-jdk|
 |SDK|12.0|
 |NDK|r21(21.3.6528147) r25(25.1.8937393)|
 
@@ -38,6 +37,11 @@ $ sudo apt install openjdk-8-jdk
 혹은(Kali 2020 버전)
 ```
 $ sudo apt install default-jdk
+```
+
+### 2024년 3월 현재  
+```
+$ sudo apt install openjdk-17-jdk
 ```
 
 ## SDK 설치
