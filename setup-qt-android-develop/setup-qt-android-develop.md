@@ -11,6 +11,16 @@ Qt에서 Android 앱을 개발하는 데 필요한 setup 과정을 설명한다.
 |SDK|26.1.1|
 |NDK|r21(21.0.6113669)|
 
+### 2024년 3월 현재  
+
+|Module|Version|
+|---|---|
+|OS|Kail 2024|
+|Qt|6.5.3|
+|JDK|openjdk-17-jdk (sudo apt install openjdk-17-jdk)|
+|SDK|12.0|
+|NDK|r21(21.3.6528147) r25(25.1.8937393)|
+
 ## Qt 설치
 * 최신 LTS 버전을 설치하도록 한다.
 
