@@ -4,7 +4,7 @@ System Network Security
 ## Start
 * [Prepare lesson](/prepare-lesson/prepare-lesson)
 * [Git example](/git-exam/git-exam) [(sum-test)](/git-exam/report-sum-test)
-* [Install Qt](/install-qt/install-qt) [(vending-machine)](/install-qt/report-vending-machine) [(webclient)](/install-qt/report-webclient)
+* [Install Qt](/install-qt/install-qt) [(vending-machine)](/install-qt/report-vending-machine) [(webclient)](/install-qt/report-webclient) [(webserver)](/install-qt/report-webserver)
 * [Import existing project in Qt](/import-existing-project-in-qt/import-existing-project-in-qt)
 
 ## Basic
