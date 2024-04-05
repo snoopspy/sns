@@ -14,6 +14,7 @@ Linux : gcc(g++) or clang(clang++)
 
 * 최신 버전을 설치하지 말고 가급적 LTS 버전을 설치한다.\
   https://en.wikipedia.org/wiki/Qt_version_history
+
 * Online Install\
   https://download.qt.io > official_releases/ > online_installers/
 
