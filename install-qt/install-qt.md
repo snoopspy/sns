@@ -15,7 +15,7 @@ Linux : gcc(g++) or clang(clang++)
 * 최신 버전을 설치하지 말고 가급적 LTS 버전을 설치한다.\
   https://en.wikipedia.org/wiki/Qt_version_history
 * Online Install\
-  https://qt.io > Download. Try. Buy > Go open source > Download the Qt Online Installer
+  https://download.qt.io > official_releases/ > online_installers/
 * Offline Install\
   https://download.qt.io > official_releases > qt 에서 OS에 맞는 파일을 다운받아 설치한다.\
   chmod 명령을 주어 실행 권한을 준 다음 command line에서 설치한다(버전 5.15 이후부터는 Offline Installer가 지원되지 않음).
