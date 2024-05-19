@@ -12,11 +12,11 @@ sample : csa-attack mon0 00:11:22:33:44:55 66:77:88:99:AA:BB
 
 |Field|Value(hexa decimal)|
 |---|---|
-|Tag Number(CSA)|25|
-|Tag Length|03|
-|Channel Switch Mode|01|
-|New Channel Number|13|
-|Channel Switch Count|03|
+|Tag Number(CSA)|37(25)|
+|Tag Length|3(03)|
+|Channel Switch Mode|1(01)|
+|New Channel Number|13(0D)|
+|Channel Switch Count|3(03)|
 
 * capture된 beacon frame에 FCS(Frame checksum) 정보가 있을 경우에 이 4바이트는 무시해야 한다.
 
