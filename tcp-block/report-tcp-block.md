@@ -1,5 +1,5 @@
 ### 과제
-Out of path 환경에서 TCP Packet Injection(RST, FIN 플래그를 포함한)를 이용하여 사이트를 차단하는 프로그램을 작성하라.
+Out of path 환경에서 TCP Packet Injection(RST, FIN 플래그를 포함한)을 이용하여 사이트를 차단하는 프로그램을 작성하라.
 
 ### 실행
 ```
