@@ -15,7 +15,7 @@ sample : csa-attack mon0 00:11:22:33:44:55 66:77:88:99:AA:BB
 |Tag Number(CSA)|37(25)|
 |Tag Length|3(03)|
 |Channel Switch Mode|1(01)|
-|New Channel Number|13(0D)|
+|New Channel Number|11(0B)|
 |Channel Switch Count|3(03)|
 
 * capture된 beacon frame에 FCS(Frame checksum) 정보가 있을 경우에 이 4바이트는 무시해야 한다.
