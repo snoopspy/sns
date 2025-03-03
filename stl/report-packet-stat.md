@@ -1,5 +1,5 @@
 ### 과제
-pcap file로부터 packet을 읽어서 IP별 송신 패킷 갯수, 수신 패킷 갯수, 송신 패킷 바이트, 수신 패킷 바이트를 출력하는 프로그램을 작성하라.
+pcap file로부터 packet을 읽어서 송신 패킷 갯수, 수신 패킷 갯수, 송신 패킷 바이트, 수신 패킷 바이트를 출력하는 프로그램을 작성하라.
 
 ### 실행
 ```
@@ -12,9 +12,9 @@ sample : packet-stat test.pcap
 
 * Wireshark - Statistics - Endpoints - IPv4 참고할 것.
 
-* 가능하다면 IPv4 뿐만 아니라 Ethernet, TCP, UDP등에 대한 Endpoint 정보도 출력해 볼 것.
+* IPv4 뿐만 아니라 Ethernet, TCP, UDP등에 대한 Endpoint 정보도 출력해 볼 것.
 
-* 가능하다면 Endpoint 뿐만 아니라 Conversation 정보도 출력해 볼 것.
+* Endpoint 뿐만 아니라 Conversation 정보도 출력해 볼 것.
 
 * sample pcap file : [test.pcap](test.pcap)
 
