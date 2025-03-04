@@ -47,6 +47,7 @@ System Network Security
 * [switch statement](/switch-statement/switch-statement)
 * [STL](/stl/stl) ([packet-stat](/stl/report-packet-stat))
 * [gmem](/gmem/gmem)
+* [Debugging using global thread variable for volatile structure member](debugging/debugging)
 
 ## Qt
 * [Setup Qt Android Development](/setup-qt-android-develop/setup-qt-android-develop)
