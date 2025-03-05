@@ -8,7 +8,7 @@ System Network Security
 * [Import existing project in Qt](/import-existing-project-in-qt/import-existing-project-in-qt)
 
 ## Basic
-* [Byte order](/byte-order/byte-order) [(add-nbo)](/byte-order/report-add-nbo)
+* [Byte order](/byte-order/byte-order) [(sum-nbo)](/byte-order/report-sum-nbo)
 * [OSI model and TCP/IP Layer](/osi-and-tcp/osi-and-tcp) [(osi-and-tcp)](/osi-and-tcp/report-osi-and-tcp)
 * [Basic header analysis](/basic-header-analysis/basic-header-analysis)
 * [Pcap programming](/pcap-programming/pcap-programming) [(pcap-test)](/pcap-programming/report-pcap-test)
