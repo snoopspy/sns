@@ -10,7 +10,7 @@ sample : sum-nbo a.bin b.bin
 $ echo -n -e \\x00\\x00\\x03\\xe8 > thousand.bin
 $ echo -n -e \\x00\\x00\\x01\\xf4 > five-hundred.bin
 $ ./sum-nbo thousand.bin five-hundred.bin
-1000(0x03e8) + 500(0x01f4) = 1500(0x05dc)
+1000(0x000003e8) + 500(0x000001f4) = 1500(0x000005dc)
 ```
 
 ### 상세
