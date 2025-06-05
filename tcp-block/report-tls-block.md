@@ -4,7 +4,7 @@ Out of path 환경에서 TCP Packet Injection(RST 플래그를 포함한)을 이
 ### 실행
 ```
 syntax : tls-block <interface> <server name>
-sample : tls-block wlan0 google.com
+sample : tls-block wlan0 naver.com
 ```
 
 ### 상세
