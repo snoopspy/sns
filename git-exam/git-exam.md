@@ -62,7 +62,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ls -l ~/.ssh
 ```
 
-public key를 "cat" 명령어로 확인한 이후 [github](https://github.com/settings/keys) 혹은 [gitlab](https://gitlab.com/-/profile/keys) 설정 화면에서 public key를 해당 웹사이트에 등록해 줍니다.  
+public key를 "cat" 명령어로 확인한 이후 [github](https://github.com/settings/keys) 혹은 [gitlab](https://gitlab.com/-/user_settings/ssh_keys) 설정 화면에서 public key를 해당 웹사이트에 등록해 줍니다.  
 
 ## github.com 계정 생성 및 repository 생성
 
