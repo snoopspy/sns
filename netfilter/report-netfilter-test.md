@@ -17,6 +17,6 @@ sample : netfilter-test test.gilgil.net
 * 유햬 사이트라고 판단되는 경우 nfq_set_verdict 함수의 3번째 인자를 NF_ACCEPT에서 NF_DROP으로 변경하여 함수를 호출하여 트래픽이 차단되는지 확인한다.
 
 ### 기타
-* git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
+* git에는 소스 코드(h, c, cpp)만 올리지 말고 동영상 및 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
 * 메일에는 코드 파일을 첨부하지 말고 git 주소만 알려줄 것.

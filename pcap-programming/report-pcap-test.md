@@ -35,6 +35,6 @@ sample: pcap-test wlan0
 * [Dummy interface를 이용하여 디버깅을 쉽게할 수 있는 방법](https://gilgil.gitlab.io/2020/07/23/1.html)을 알면 과제 수행에 도움이 된다.
 
 ### 기타
-* git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
+* git에는 소스 코드(h, c, cpp)만 올리지 말고 동영상 및 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
 * 메일에는 코드 파일을 첨부하지 말고 git 주소만 알려줄 것.
