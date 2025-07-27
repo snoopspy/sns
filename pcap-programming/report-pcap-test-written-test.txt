@@ -1,0 +1,11 @@
+1. Ethernet Header 다음 에 IPV4 Header가 오는 조건은? 필드명과 필드값(Hexadecimal)을 적으시오.
+
+2 .IPv4 Header 다음에 TCP Header가 오는 조건은? 필드명과 필드값을 적으시오.
+
+3. IPv4 Header에서 각각 4바이트를 차지하는 SrcIP 및 DstIP 변수를 어떻게 선언하였는지 적으시오.
+
+4. IPv4 Header의 SrcIP 및 DstIP를 화면 스트링으로 출력하기 위해 사용한 코드를 적으시오.
+
+5. TCP Header에서 SrcPort 및 DstPort 를 출력하기 위해 사용한 코드를 적으시오.
+
+6. TCPData의 길이는 IP Header의 (    ) - IPHeaderLen - TCPHeaderLen 공식으로 구할 수 있다. 괄호 안에 들어갈 필드명을 적으시오.
