@@ -26,7 +26,7 @@ sample : send-arp wlan0 192.168.10.2 192.168.10.1
 
 * Attacker와 Victim(Sender), Target은 물리적으로 다른 호스트로 테스트할 것(하나의 가상 환경에서 여러개 띄워 테스트하지 말 것).
 
-* Attacker가 Guest OS인 경우 네트워크를 bridge mode로 만들어 테스트할 것.
+* Attacker가 Guest OS인 경우 별도의 무선 어댑터를 사용하거나 네트워크를 bridge mode로 만들어 테스트할 것.
 
 * Victim(Sender)은 자신의 스마트폰 혹은 여분의 PC나 노트북으로 테스트하거나, 다른 사람의 Host인 경우 허락을 맡고 테스트할 것.
 
@@ -34,7 +34,9 @@ sample : send-arp wlan0 192.168.10.2 192.168.10.1
 
 * 패킷을 전송(pcap_sendpacket)만 할 때에는 "pcap_open_live(dev, 0, 0, 0, errbuf)" 이렇게 줘도 되지만, 패킷을 수신(pcap_next_ex)을 하려면 숫자 인자를 0으로 채워서는 안됨. 과제를 수행할 때 "pcap_open_live(dev, BUFSIZ, 1, 1, errbuf)"로 수정해서 작업을 할 것.
 
-* 구조체는 libnet 헤더를 사용하지 말고 send-arp-test에 있는 구조체 혹윽 자신이 직접 만든 구조체를 사용한다.
+* 구조체는 libnet 헤더를 사용하지 말고 send-arp-test에 있는 구조체 혹은 자신이 직접 만든 구조체를 사용한다.
+
+* 프로젝트 이름을 send-arp-test로 하지 말 것.
 
 ### 기타
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 동영상 및 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
