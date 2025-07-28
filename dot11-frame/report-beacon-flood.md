@@ -37,6 +37,6 @@ sudo cp /usr/local/lib/libtins* /usr/lib
   https://gitlab.com/gilgil/g/-/blob/master/src/net/process/gbeaconflood.cpp  
 
 ### 기타
-* git에는 소스 코드(h, c, cpp)만 올리지 말고 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
+* git에는 소스 코드(h, c, cpp)만 올리지 말고 동영상 및 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
 * 메일에는 코드 파일을 첨부하지 말고 git 주소만 알려줄 것.
