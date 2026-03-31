@@ -36,7 +36,7 @@ sample : send-arp wlan0 192.168.10.2 192.168.10.1
 
 * 구조체는 libnet 헤더를 사용하지 말고 send-arp-test에 있는 구조체 혹은 자신이 직접 만든 구조체를 사용한다.
 
-* 프로젝트 이름을 send-arp-test로 하지 말 것.
+* 프로젝트(과제) 이름은 send-arp로 할 것(send-arp-test로 하지 말 것).
 
 ### 기타
 * 실행 화면(Victim에서 실행한 ping 명령어에 의해 Attacker에서 해당 icmp 패킷이 보여야 함)을 동영상으로 남길 것.
