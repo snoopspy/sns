@@ -38,6 +38,8 @@ sample : arp-spoof wlan0 192.168.10.2 192.168.10.1 192.168.10.1 192.168.10.2
 * ARP infection packet에 의해 attacker의 ARP table이 감염될 수도 있다. Linux에서는 이러한 현상이 발생하지 않지만 Windows에서는 이러한 현상이 있다. 이를 위해 ARP table을 static으로 설정하면 자신의 ARP table 감염을 방지할 수 있다. - https://gilgil.gitlab.io/2022/09/06/1.html
 
 ### 기타
+* 실행 화면(Victim에서 실행한 ping 명령어가 막힘 없이 작동하며 Request와 Reply 2개가 모두 잡히고 Attacker에서는 4개의 패킷이 잡혀야 함)을 동영상으로 남길 것.
+
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 동영상 및 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
 * 메일에는 코드 파일을 첨부하지 말고 git 주소만 알려줄 것.
