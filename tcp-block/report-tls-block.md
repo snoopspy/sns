@@ -19,6 +19,8 @@ sample : tls-block wlan0 naver.com
 * 자신에게 전송하는 역방향 패킷은 pcap을 이용하는 경우 Linux에서 작동하지 않을 수 있으므로 [raw socket](https://www.google.com/search?q=raw+socket+example&oq=raw+socket+example)를 이용하여 전송하도록 한다.
 
 ### 기타
+* 실행 화면을 동영상으로 남길 것.
+
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 동영상 및 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
 * 메일에는 코드 파일을 첨부하지 말고 git 주소만 알려줄 것.

@@ -17,6 +17,8 @@ sample : signal-strength mon0 00:11:22:33:44:55
 * 가능하다면 Chart와 같은 컴포넌트를 이용하여 GUI 형식으로도 보여줄 수 있도록 한다( [https://doc.qt.io/qt-5/qtcharts-linechart-example.html](https://doc.qt.io/qt-5/qtcharts-linechart-example.html) ).
 
 ### 기타
+* 실행 화면을 동영상으로 남길 것.
+
 * git에는 소스 코드(h, c, cpp)만 올리지 말고 동영상 및 프로젝트 파일(Makefile 혹은 *.pro)도 같이 올릴 것.
 
 * 메일에는 코드 파일을 첨부하지 말고 git 주소만 알려줄 것.
